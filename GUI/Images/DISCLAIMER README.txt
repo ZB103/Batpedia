@@ -1,0 +1,1 @@
+Disclaimer: Some of the images used in this project may be subject to copyright. These images belong to their respective owners, and I do not own the rights to any of them. These images are used under fair use, and I make no money off of them.

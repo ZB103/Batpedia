@@ -3,10 +3,6 @@ package Classification;
 /*
 
 A suborder of the order Chiroptera.
-Holds the following families:
-
-
-This class is a stub. More information may be added later.
 
 */
 
@@ -25,10 +21,6 @@ class Yinpterochiroptera extends Chiroptera{
 /*
 
 A family of the suborder Pteropodidae.
-Holds the following familyes:
-
-
-This class is a stub. More information may be added later.
 
 */
 
@@ -49,8 +41,6 @@ class Pteropodidae extends Yinpterochiroptera{
 
 A family of the suborder Yinpterochiroptera.
 
-This class is a stub. More information may be added later.
-
 */
 
 class Rhinopomatidae extends Yinpterochiroptera{
@@ -68,8 +58,6 @@ class Rhinopomatidae extends Yinpterochiroptera{
 /*
 
 A family of the suborder Yinpterochiroptera.
-
-This class is a stub. More information may be added later.
 
 */
 
@@ -89,8 +77,6 @@ class Megadermatidae extends Yinpterochiroptera{
 
 A family of the suborder Yinpterochiroptera.
 
-This class is a stub. More information may be added later.
-
 */
 
 class Craseonycteridae extends Yinpterochiroptera{
@@ -109,8 +95,6 @@ class Craseonycteridae extends Yinpterochiroptera{
 
 A family of the suborder Yinpterochiroptera.
 
-This class is a stub. More information may be added later.
-
 */
 
 class Hipposideridae extends Yinpterochiroptera{
@@ -128,8 +112,6 @@ class Hipposideridae extends Yinpterochiroptera{
 /*
 
 A family of the suborder Yinpterochiroptera.
-
-This class is a stub. More information may be added later.
 
 */
 

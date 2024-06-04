@@ -3,10 +3,6 @@ package Classification;
 /*
 
 A suborder of the order Chiroptera.
-Holds the following families:
-
-
-This class is a stub. More information may be added later.
 
 */
 
@@ -26,8 +22,6 @@ class Yangochiroptera extends Chiroptera{
 
 A family of the subclass Yangochiroptera.
 
-This class is a stub. More information may be added later.
-
 */
 
 class Emballonuridae extends Yangochiroptera{
@@ -45,8 +39,6 @@ class Emballonuridae extends Yangochiroptera{
 /*
 
 A family of the subclass Yangochiroptera.
-
-This class is a stub. More information may be added later.
 
 */
 
@@ -66,8 +58,6 @@ class Noctilionidae extends Yangochiroptera{
 
 A family of the subclass Yangochiroptera.
 
-This class is a stub. More information may be added later.
-
 */
 
 class Thyropteridae extends Yangochiroptera{
@@ -85,8 +75,6 @@ class Thyropteridae extends Yangochiroptera{
 /*
 
 A family of the subclass Yangochiroptera.
-
-This class is a stub. More information may be added later.
 
 */
 
@@ -106,7 +94,6 @@ class Furipteridae extends Yangochiroptera{
 
 A family of the subclass Yangochiroptera.
 
-This class is a stub. More information may be added later.
 
 */
 
@@ -126,7 +113,6 @@ class Mormoopidae extends Yangochiroptera{
 
 A family of the subclass Yangochiroptera.
 
-This class is a stub. More information may be added later.
 
 */
 
@@ -146,8 +132,6 @@ class Phyllostomidae extends Yangochiroptera{
 
 A family of the subclass Yangochiroptera.
 
-This class is a stub. More information may be added later.
-
 */
 
 class Myzopodidae extends Yangochiroptera{
@@ -166,7 +150,6 @@ class Myzopodidae extends Yangochiroptera{
 
 A family of the subclass Yangochiroptera.
 
-This class is a stub. More information may be added later.
 
 */
 
@@ -186,7 +169,6 @@ class Mystacinidae extends Yangochiroptera{
 
 A family of the subclass Yangochiroptera.
 
-This class is a stub. More information may be added later.
 
 */
 
@@ -206,7 +188,6 @@ class Miniopteridae extends Yangochiroptera{
 
 A family of the subclass Yangochiroptera.
 
-This class is a stub. More information may be added later.
 
 */
 
@@ -226,7 +207,6 @@ class Natalidae extends Yangochiroptera{
 
 A family of the subclass Yangochiroptera.
 
-This class is a stub. More information may be added later.
 
 */
 
