@@ -1,4 +1,4 @@
-# Bat_Taxonomic_Lookup
+# Batpedia
 A taxonomic search for bats (order Chiroptera)
 
 Project begun: 10/24/23
