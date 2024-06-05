@@ -38,7 +38,7 @@ public class Chiroptera{
 	//Mediator function
 	public void getData(String requestedData) throws IOException{
 		//Initialize classes
-		File file = new File("C:\\Users\\zbake\\Desktop\\Programming\\GitHub\\Bat_Taxonomic_Lookup\\Classification\\Data\\Chiroptera.txt");	//Remove hard-code later
+		File file = new File("C:\\Users\\zbake\\Desktop\\Programming\\GitHub\\Batpedia\\Classification\\Data\\Chiroptera.txt");	//Remove hard-code later
 		FileReader fr = new FileReader(file);
 		BufferedReader br = new BufferedReader(fr);
 		
