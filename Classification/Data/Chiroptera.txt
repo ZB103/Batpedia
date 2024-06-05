@@ -1,11 +1,7 @@
-*Location
-
-*Habitat
-
-*Diet
-
-*Social Structure
-
-*Threats
-
-*Status
+*Order
+The order of Chiroptera contains all and only the many species of bats. Bats can be found throughout the world, on every continent and in every climate except Antarctica. This order is divided into suborders Yangochiroptera and Yinchiroptera.
+*Frequency
+There are 1400+ species of bats, making up 20-25% of the world mammal population. However, 25% of bat species are considered threatened.
+*Diversity
+Bats have a wide range of unique traits, diets, and ecological impact. Each one is incredibly important to things such as pest control, fertilization, and more.
+*ENDDOC

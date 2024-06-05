@@ -1,11 +1,9 @@
-*Location
-
-*Habitat
-
-*Diet
-
-*Social Structure
-
-*Threats
-
-*Status
+*Suborder
+This suborder consists of all bats lacking laryngeal echolocation. It is also sometimes referred to as Pteropodiformes.
+Yinpterochiroptera contains the following families:
+Craseonycteridae (Kitti's hog-nosed bat)
+Hipposideridae (Old World leaf-nosed bats)
+Megadermatidae (false vampires)
+Pteropodidae (megabats)
+Rhinolophidae (horseshoe bats)
+Rhinopomatidae (mouse-tailed bats)

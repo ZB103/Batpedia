@@ -1,11 +1,17 @@
-*Location
-
-*Habitat
-
-*Diet
-
-*Social Structure
-
-*Threats
-
-*Status
+*Suborder
+This suborder consists of all bats that use laryngeal echolocation. It is also sometimes referred to as Vespertilioniformes.
+Yangochiroptera contains the following families:
+Cistugidae (wing-gland bats)
+Emballonuridae (sac-winged bats)
+Furipteridae (smoky bats)
+Miniopteridae (bent-winged or long winged bats)
+Molossidae (free-tailed bats)
+Mormoopidae (ghost-faced bats)
+Mystacinidae (New Zealand short-tailed bats)
+Myzopodidae (sucker-footed bats)
+Natalidae (funnel-eared bats)
+Noctilionidae (bulldog bats)
+Nycteridae (hollow-faced bats)
+Phyllostomidae (leaf-nosed bats)
+Thyropteridae (disk-winged bats)
+Vespertilionidae (vesper bats)
