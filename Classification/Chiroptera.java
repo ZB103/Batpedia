@@ -1,3 +1,9 @@
+package Classification;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
 /*
 
 This is the highest class (order Chiroptera), holding the rest of the variables
@@ -7,12 +13,6 @@ Yangochiroptera
 Yingpterochiroptera
 
 */
-
-package Classification;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
 
 public class Chiroptera{
 	private static final String DOMAIN = "Eukaryota";
@@ -24,7 +24,7 @@ public class Chiroptera{
 
 	
 	public Chiroptera(){
-		System.out.println("Chiroptera order established");
+		//System.out.println("Chiroptera order established");
 	}
 	
 	//Getters
@@ -45,7 +45,7 @@ public class Chiroptera{
 		//Get contents of file
 		String fullString = "";	//String of full file transcription
 		String line;
-		while((line = br.readLine()) != null){fullString += line;}
+		while((line = br.readLine()) != null){fullString += line + "\n";}
 		
 		//Call requested data based on
 		if(requestedData.equals("order")){displayOrderData(fullString);}

@@ -6,6 +6,10 @@
 
 *Social Structure
 
+*Reproduction
+
+*Seasonal Behavior
+
 *Lifespan
 
 *Predators
@@ -17,3 +21,5 @@
 *Genuses
 
 *Appearance
+
+*ENDDOC

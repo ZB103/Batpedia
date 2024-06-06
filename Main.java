@@ -5,13 +5,18 @@ import java.io.IOException;
 class Main{
 	//Entry point main
 	public static void main(String[] args) throws IOException{
-		Chiroptera c = new Chiroptera();
-		c.getData("order");
-		System.out.println("\n\n");
-		c.getData("frequency");
-		System.out.println("\n\n");
-		c.getData("diversity");
-		System.out.println("\n\n");
+		//Chiroptera c = new Chiroptera();
+		// c.getData("order");
+		// c.getData("frequency");
+		// c.getData("diversity");
+		
+		// Yangochiroptera ya = new Yangochiroptera();
+		// Yinpterochiroptera yi = new Yinpterochiroptera();
+		// ya.getData("suborder");
+		// yi.getData("suborder");
+		
+		
+		
 	}
 	
 	//Initialization
