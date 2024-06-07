@@ -18,6 +18,14 @@ public class Yinpterochiroptera extends Chiroptera{
 		//System.out.println("Yinpterochiroptera order established");
 	}
 	
+	//Subclass creator functions
+	public static Yinpterochiroptera createPteropodidae(){return new Pteropodidae();}
+	public static Yinpterochiroptera createRhinopomatidae(){return new Rhinopomatidae();}
+	public static Yinpterochiroptera createMegadermatidae(){return new Megadermatidae();}
+	public static Yinpterochiroptera createCraseonycteridae(){return new Craseonycteridae();}
+	public static Yinpterochiroptera createHipposideridae(){return new Hipposideridae();}
+	public static Yinpterochiroptera createRhinolophidae(){return new Rhinolophidae();}
+	
 	//Getters
 	public String getSuborder(){return SUBORDER;}
 	
@@ -63,7 +71,7 @@ class Pteropodidae extends Yinpterochiroptera{
 	
 	public Pteropodidae(){
 		super();
-		System.out.println("Pteropodidae family established");
+		//System.out.println("Pteropodidae family established");
 	}
 	
 	//Getters
@@ -82,7 +90,7 @@ class Rhinopomatidae extends Yinpterochiroptera{
 	
 	public Rhinopomatidae(){
 		super();
-		System.out.println("Rhinopomatidae family established");
+		//System.out.println("Rhinopomatidae family established");
 	}
 	
 	//Getters
@@ -100,7 +108,7 @@ class Megadermatidae extends Yinpterochiroptera{
 	
 	public Megadermatidae(){
 		super();
-		System.out.println("Megadermatidae family established");
+		//System.out.println("Megadermatidae family established");
 	}
 	
 	//Getters
@@ -118,7 +126,7 @@ class Craseonycteridae extends Yinpterochiroptera{
 	
 	public Craseonycteridae(){
 		super();
-		System.out.println("Craseonycteridae family established");
+		//System.out.println("Craseonycteridae family established");
 	}
 	
 	//Getters
@@ -136,7 +144,7 @@ class Hipposideridae extends Yinpterochiroptera{
 	
 	public Hipposideridae(){
 		super();
-		System.out.println("Hipposideridae family established");
+		//System.out.println("Hipposideridae family established");
 	}
 	
 	//Getters
@@ -154,7 +162,7 @@ class Rhinolophidae extends Yinpterochiroptera{
 	
 	public Rhinolophidae(){
 		super();
-		System.out.println("Rhinolophidae family established");
+		//System.out.println("Rhinolophidae family established");
 	}
 	
 	//Getters

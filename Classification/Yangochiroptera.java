@@ -21,6 +21,20 @@ public class Yangochiroptera extends Chiroptera{
 	//Getters
 	public String getSuborder(){return SUBORDER;}
 	
+	
+	//Subclass creator functions
+	public static Yangochiroptera createEmballonuridae(){return new Emballonuridae();}
+	public static Yangochiroptera createNoctilionidae(){return new Noctilionidae();}
+	public static Yangochiroptera createThyropteridae(){return new Thyropteridae();}
+	public static Yangochiroptera createFuripteridae(){return new Furipteridae();}
+	public static Yangochiroptera createMormoopidae(){return new Mormoopidae();}
+	public static Yangochiroptera createPhyllostomidae(){return new Phyllostomidae();}
+	public static Yangochiroptera createMyzopodidae(){return new Myzopodidae();}
+	public static Yangochiroptera createMystacinidae(){return new Mystacinidae();}
+	public static Yangochiroptera createMiniopteridae(){return new Miniopteridae();}
+	public static Yangochiroptera createNatalidae(){return new Natalidae();}
+	public static Yangochiroptera createVespertillionidae(){return new Vespertillionidae();}	
+	
 	//Retrieve data from text file
 	//Mediator function
 	public void getData(String requestedData) throws IOException{
@@ -63,7 +77,7 @@ class Emballonuridae extends Yangochiroptera{
 	
 	public Emballonuridae(){
 		super();
-		System.out.println("Emballonuridae family established");
+		//System.out.println("Emballonuridae family established");
 	}
 	
 	//Getters
@@ -81,7 +95,7 @@ class Noctilionidae extends Yangochiroptera{
 	
 	public Noctilionidae(){
 		super();
-		System.out.println("Noctilionidae family established");
+		//System.out.println("Noctilionidae family established");
 	}
 	
 	//Getters
@@ -99,7 +113,7 @@ class Thyropteridae extends Yangochiroptera{
 	
 	public Thyropteridae(){
 		super();
-		System.out.println("Thyropteridae family established");
+		//System.out.println("Thyropteridae family established");
 	}
 	
 	//Getters
@@ -117,7 +131,7 @@ class Furipteridae extends Yangochiroptera{
 	
 	public Furipteridae(){
 		super();
-		System.out.println("Furipteridae family established");
+		//System.out.println("Furipteridae family established");
 	}
 	
 	//Getters
@@ -136,7 +150,7 @@ class Mormoopidae extends Yangochiroptera{
 	
 	public Mormoopidae(){
 		super();
-		System.out.println("Mormoopidae family established");
+		//System.out.println("Mormoopidae family established");
 	}
 	
 	//Getters
@@ -155,7 +169,7 @@ class Phyllostomidae extends Yangochiroptera{
 	
 	public Phyllostomidae(){
 		super();
-		System.out.println("Phyllostomidae family established");
+		//System.out.println("Phyllostomidae family established");
 	}
 	
 	//Getters
@@ -173,7 +187,7 @@ class Myzopodidae extends Yangochiroptera{
 	
 	public Myzopodidae(){
 		super();
-		System.out.println("Myzopodidae family established");
+		//System.out.println("Myzopodidae family established");
 	}
 	
 	//Getters
@@ -192,7 +206,7 @@ class Mystacinidae extends Yangochiroptera{
 	
 	public Mystacinidae(){
 		super();
-		System.out.println("Mystacinidae family established");
+		//System.out.println("Mystacinidae family established");
 	}
 	
 	//Getters
@@ -211,7 +225,7 @@ class Miniopteridae extends Yangochiroptera{
 	
 	public Miniopteridae(){
 		super();
-		System.out.println("Miniopteridae family established");
+		//System.out.println("Miniopteridae family established");
 	}
 	
 	//Getters
@@ -230,7 +244,7 @@ class Natalidae extends Yangochiroptera{
 	
 	public Natalidae(){
 		super();
-		System.out.println("Natalidae family established");
+		//System.out.println("Natalidae family established");
 	}
 	
 	//Getters
@@ -249,7 +263,7 @@ class Vespertillionidae extends Yangochiroptera{
 	
 	public Vespertillionidae(){
 		super();
-		System.out.println("Vespertillionidae family established");
+		//System.out.println("Vespertillionidae family established");
 	}
 	
 	//Getters

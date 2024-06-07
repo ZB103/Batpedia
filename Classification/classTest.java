@@ -9,7 +9,7 @@ for later debugging purposes, should they be useful.
 
 package Classification;
 
-public class classTest{
+public static class classTest{
 	public classTest(){
 		return;
 	}
