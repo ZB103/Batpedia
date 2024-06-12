@@ -10,11 +10,13 @@ Disclaimer: Some of the images used in this project may be subject to copyright.
 
 
 TODO
--Fill out data files for families
--Extract and display text from files using class methods
+-Standardize structure of data
 -Build basic GUI - buttons show text
 -Implement design choices, including photos
 
+Begun
+-Fill out data files for families
+-Extract and display text from files using class methods
 
 Completed
 -Organize bat categories into classes
