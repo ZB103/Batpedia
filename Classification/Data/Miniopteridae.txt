@@ -1,29 +1,32 @@
 *Location
-
+Mediterranean Europe, Middle East, Africa, Madagascar, Asia, Australia, Indonesia
 *Habitat
-
+Roost in caves and cave-like structures in tropical, subtropical, mangroves
 *Diet
-
+Insectivorous
+Piscivorous (Miniopterus inflatus and two others)
 *Social Structure
-
+Form colonies during hibernation (up to 110,000 individuals) or during maternity (up to 83,000 individuals). A variety of vocalizations and olfactory stimuli are used to communicate.
 *Reproduction
-
+Suspected polygynous with older, more dominant males having more females. Both males and females migrate to roost sites during mating season. Miniopterus australis exhibits harem mating systems.
 *Seasonal Behavior
-
+Breeding migration, seasonal hibernation
 *Lifespan
-
+Average 17 years, max 22 years
 *Predators
-
+Owls, foxes, rats, cats, snakes
+Diclidurus (Miniopterus australis)
 *Threats
-
+Burning and cutting of cave-mouth vegetation, expansion of human population with negative view of bats
 *Status
-
+Least Concern (LC)
+Endangered (EN) to Near Threatened (NT) (5 species)
 *Genuses
-
+Miniopterus
 *Appearance
-
+These bats are small, typically brown in color, and have broad, short muzzles and tall foreheads. Their name bent-winged bats refers to the ability to fild back a long third finger when their wingsa re folded. Unlike other bats, they lack a tendon-locking mechanism in their toes.
 *Size
-
+40-78 mm
 *Echolocation?
-
+True
 *ENDDOC
