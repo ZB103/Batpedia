@@ -18,4 +18,8 @@
 
 *Appearance
 
+*Size
+
+*Echolocation?
+
 *ENDDOC

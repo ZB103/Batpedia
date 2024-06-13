@@ -27,4 +27,7 @@ Amorphochilus schnablii
 These bats are small and grey in color, with a piglike leaf nose. They are distinguished by their reduced/functionless thumbs enclosed by the wing membranes, and their broad, funnel-shaped ears.
 *Size
 33-58 mm
+
+*Echolocation?
+
 *ENDDOC
