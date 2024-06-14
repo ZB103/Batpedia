@@ -16,26 +16,24 @@ class Main{
 		Yangochiroptera yangochiroptera = new Yangochiroptera();
 		Yinpterochiroptera yinpterochiroptera = new Yinpterochiroptera();
 		//Yango
-		Yangochiroptera emballonuridae = yangochiroptera.createEmballonuridae();
-		Yangochiroptera noctilionidae = yangochiroptera.createNoctilionidae();
-		Yangochiroptera thyropteridae = yangochiroptera.createThyropteridae();
-		Yangochiroptera furipteridae = yangochiroptera.createFuripteridae();
-		Yangochiroptera mormoopidae = yangochiroptera.createMormoopidae();
-		Yangochiroptera phyllostomidae = yangochiroptera.createPhyllostomidae();
-		Yangochiroptera myzopodidae = yangochiroptera.createMyzopodidae();
-		Yangochiroptera mystacinidae = yangochiroptera.createMystacinidae();
-		Yangochiroptera miniopteridae = yangochiroptera.createMiniopteridae();
-		Yangochiroptera natalidae = yangochiroptera.createNatalidae();
-		Yangochiroptera vespertillionidae = yangochiroptera.createVespertillionidae();
+		Emballonuridae emballonuridae = new Emballonuridae();
+		Noctilionidae noctilionidae = new Noctilionidae();
+		Thyropteridae thyropteridae = new Thyropteridae();
+		Furipteridae furipteridae = new Furipteridae();
+		Mormoopidae mormoopidae = new Mormoopidae();
+		Phyllostomidae phyllostomidae = new Phyllostomidae();
+		Myzopodidae myzopodidae = new Myzopodidae();
+		Mystacinidae mystacinidae = new Mystacinidae();
+		Miniopteridae miniopteridae = new Miniopteridae();
+		Natalidae natalidae = new Natalidae();
+		Vespertillionidae vespertillionidae = new Vespertillionidae();
 		//Yin
-		Yinpterochiroptera pteropodidae = yinpterochiroptera.createPteropodidae();
-		Yinpterochiroptera rhinopomatidae = yinpterochiroptera.createRhinopomatidae();
-		Yinpterochiroptera megadermatidae = yinpterochiroptera.createMegadermatidae();
-		Yinpterochiroptera craseonycteridae = yinpterochiroptera.createCraseonycteridae();
-		Yinpterochiroptera hipposideridae = yinpterochiroptera.createHipposideridae();
-		Yinpterochiroptera rhinolophidae = yinpterochiroptera.createRhinolophidae();
-		
-		//System.out.println(hipposideridae.getFamily());
+		Pteropodidae pteropodidae = new Pteropodidae();
+		Rhinopomatidae rhinopomatidae = new Rhinopomatidae();
+		Megadermatidae megadermatidae = new Megadermatidae();
+		Craseonycteridae craseonycteridae = new Craseonycteridae();
+		Hipposideridae hipposideridae = new Hipposideridae();
+		Rhinolophidae rhinolophidae = new Rhinolophidae();
 	}
 
 }

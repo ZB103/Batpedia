@@ -7,6 +7,18 @@ import java.io.IOException;
 /*
 
 A suborder of the order Chiroptera.
+Genera:
+Emballonuridae
+Noctilionidae
+Thyropteridae
+Furipteridae
+Mormoopidae
+Phyllostomidae
+Myzopodidae
+Mystacinidae
+Miniopteridae
+Natalidae
+Vespertillionidae
 
 */
 
@@ -20,20 +32,6 @@ public class Yangochiroptera extends Chiroptera{
 	
 	//Getters
 	public String getSuborder(){return SUBORDER;}
-	
-	
-	//Subclass creator functions
-	public static Yangochiroptera createEmballonuridae(){return new Emballonuridae();}
-	public static Yangochiroptera createNoctilionidae(){return new Noctilionidae();}
-	public static Yangochiroptera createThyropteridae(){return new Thyropteridae();}
-	public static Yangochiroptera createFuripteridae(){return new Furipteridae();}
-	public static Yangochiroptera createMormoopidae(){return new Mormoopidae();}
-	public static Yangochiroptera createPhyllostomidae(){return new Phyllostomidae();}
-	public static Yangochiroptera createMyzopodidae(){return new Myzopodidae();}
-	public static Yangochiroptera createMystacinidae(){return new Mystacinidae();}
-	public static Yangochiroptera createMiniopteridae(){return new Miniopteridae();}
-	public static Yangochiroptera createNatalidae(){return new Natalidae();}
-	public static Yangochiroptera createVespertillionidae(){return new Vespertillionidae();}	
 	
 	//Retrieve data from text file
 	//Mediator function
@@ -64,208 +62,4 @@ public class Yangochiroptera extends Chiroptera{
 		//Use data - temporary print statement
 		System.out.println(finalString);
 	}
-}
-
-/*
-
-A family of the subclass Yangochiroptera.
-
-*/
-
-class Emballonuridae extends Yangochiroptera{
-	private static final String FAMILY = "Emballonuridae";
-	
-	public Emballonuridae(){
-		super();
-		//System.out.println("Emballonuridae family established");
-	}
-	
-	//Getters
-	public String getFamily(){return FAMILY;}
-}
-
-/*
-
-A family of the subclass Yangochiroptera.
-
-*/
-
-class Noctilionidae extends Yangochiroptera{
-	private static final String FAMILY = "Noctilionidae";
-	
-	public Noctilionidae(){
-		super();
-		//System.out.println("Noctilionidae family established");
-	}
-	
-	//Getters
-	public String getFamily(){return FAMILY;}
-}
-
-/*
-
-A family of the subclass Yangochiroptera.
-
-*/
-
-class Thyropteridae extends Yangochiroptera{
-	private static final String FAMILY = "Thyropteridae";
-	
-	public Thyropteridae(){
-		super();
-		//System.out.println("Thyropteridae family established");
-	}
-	
-	//Getters
-	public String getFamily(){return FAMILY;}
-}
-
-/*
-
-A family of the subclass Yangochiroptera.
-
-*/
-
-class Furipteridae extends Yangochiroptera{
-	private static final String FAMILY = "Furipteridae";
-	
-	public Furipteridae(){
-		super();
-		//System.out.println("Furipteridae family established");
-	}
-	
-	//Getters
-	public String getFamily(){return FAMILY;}
-}
-
-/*
-
-A family of the subclass Yangochiroptera.
-
-
-*/
-
-class Mormoopidae extends Yangochiroptera{
-	private static final String FAMILY = "Mormoopidae";
-	
-	public Mormoopidae(){
-		super();
-		//System.out.println("Mormoopidae family established");
-	}
-	
-	//Getters
-	public String getFamily(){return FAMILY;}
-}
-
-/*
-
-A family of the subclass Yangochiroptera.
-
-
-*/
-
-class Phyllostomidae extends Yangochiroptera{
-	private static final String FAMILY = "Phyllostomidae";
-	
-	public Phyllostomidae(){
-		super();
-		//System.out.println("Phyllostomidae family established");
-	}
-	
-	//Getters
-	public String getFamily(){return FAMILY;}
-}
-
-/*
-
-A family of the subclass Yangochiroptera.
-
-*/
-
-class Myzopodidae extends Yangochiroptera{
-	private static final String FAMILY = "Myzopodidae";
-	
-	public Myzopodidae(){
-		super();
-		//System.out.println("Myzopodidae family established");
-	}
-	
-	//Getters
-	public String getFamily(){return FAMILY;}
-}
-
-/*
-
-A family of the subclass Yangochiroptera.
-
-
-*/
-
-class Mystacinidae extends Yangochiroptera{
-	private static final String FAMILY = "Mystacinidae";
-	
-	public Mystacinidae(){
-		super();
-		//System.out.println("Mystacinidae family established");
-	}
-	
-	//Getters
-	public String getFamily(){return FAMILY;}
-}
-
-/*
-
-A family of the subclass Yangochiroptera.
-
-
-*/
-
-class Miniopteridae extends Yangochiroptera{
-	private static final String FAMILY = "Miniopteridae";
-	
-	public Miniopteridae(){
-		super();
-		//System.out.println("Miniopteridae family established");
-	}
-	
-	//Getters
-	public String getFamily(){return FAMILY;}
-}
-
-/*
-
-A family of the subclass Yangochiroptera.
-
-
-*/
-
-class Natalidae extends Yangochiroptera{
-	private static final String FAMILY = "Natalidae";
-	
-	public Natalidae(){
-		super();
-		//System.out.println("Natalidae family established");
-	}
-	
-	//Getters
-	public String getFamily(){return FAMILY;}
-}
-
-/*
-
-A family of the subclass Yangochiroptera.
-
-
-*/
-
-class Vespertillionidae extends Yangochiroptera{
-	private static final String FAMILY = "Vespertillionidae";
-	
-	public Vespertillionidae(){
-		super();
-		//System.out.println("Vespertillionidae family established");
-	}
-	
-	//Getters
-	public String getFamily(){return FAMILY;}
 }
