@@ -1,29 +1,95 @@
 *Location
-
+southwest United States to northern Argentina, West Indies
 *Habitat
-
+Diverse - dense rainforests, deserts, tropics
 *Diet
-
+Varies depending on species
+Insectivorous
+Carnivorous
+Nectarivorous
+Frugivorous
+Hemovorous (desmodontinae)
 *Social Structure
-
+Some species roost alone in a single roosting site. Males live alone or with harems, while females prefer to roost with other individuals and their pups. Evidense suggests a social heirarchy with high-ranking idividuals gaining access to preferred areas of the site.
 *Reproduction
-
+Most species show no breeding season, but have one offspring at a time. Vampyrum spectrum is uniquely monogamous. Most species are seasonally polygynous.
 *Seasonal Behavior
-
+Certain species aestivate, no hibernation.
 *Lifespan
-
+c. 7 years
+18-30 years (Desmodus)
 *Predators
-
+Skunks, raccoons, snakes, domestic cats, owls, raptors
 *Threats
-
+Fear hunting, agricultural activity, habitat loss, pesticides
 *Status
-
+Vulnerable (VU) to Least Concern (LC)
+Endangered (EN) (P. aphylla, C. improvisum, S. thomasi, L. nivalis)
 *Genuses
-
+Chrotopterus
+Glyphonycteris
+Lampronycteris
+Lonchorhina
+Lophostoma
+Macrophyllum
+Macrotus
+Micronycteris
+Mimon
+Neonycteris
+Phylloderma
+Phyllostomus
+Tonatia
+Trachops
+Trinycteris
+Vampyrum
+Lampronycteris
+Micronycteris
+Macrotus
+Lionycteris
+Lonchophylla
+Platalina
+Xeronycteris
+Hsunycteris
+Glyphonycteris
+Neonycteris
+Trinycteris
+Anoura
+Choeroniscus
+Choeronycteris
+Dryadonycteris
+Glossophaga
+Hylonycteris
+Leptonycteris
+Lichonycteris
+Monophyllus
+Musonycteris
+Scleronycteris
+Diaemus
+Desmodus
+Carollia
+Rhynophylla
+Vampyressa
+Uroderma
+Sturnira
+Stenoderma
+Sphaeronycteris
+Pygoderma
+Platyrrhinus
+Psyllops
+Mesophylla
+Enchisthenes
+Ectophylla
+Chiroderma
+Centurio
+Artibeus
+Ariteus
+Adrops
+Ametrida
+Vempyrodes
 *Appearance
-
+One of the most ecologically diverse mammal families, with a wide variey of characteristics. THey can be identified by their noseleaves, lack of tail or small tail enclosed in a uropatagium, and triangular ears. Appearance varies greatly depending on diet and other factors.
 *Size
-
+4-13.5 cm
 *Echolocation?
-
+Limited/Varies
 *ENDDOC
