@@ -1,29 +1,76 @@
 *Location
-
+Africa, Middle East, south Asia, Philippines, north/east Australia
 *Habitat
-
+Tropical, subtropical, temperate
 *Diet
-
+Frugivorous
+Nectarivorous (several species)
 *Social Structure
-
+Highly gregarious, very vocal, and capable of acquirindg a dialect from their mothers. Most are crepusclar, some octurmal, and a few island species diurnal. Most roost in trees of up to 1 million individuals. A few cave-roosting species occur in groups of 10 to several thousand. Solitary species and small groups tend to have less fidelity in their roosts.
 *Reproduction
-
+Some megabats are seasonal breeders, while others breed throughout the year. They have one offspring at a time.
 *Seasonal Behavior
-
+Migration
 *Lifespan
-
+25+ years
 *Predators
-
+Few to no native predators include mangrove monitor for some species. Non-native predators include domestic cats, rats, brown tree snake. Parasites such as bat flies and Demodex mites.
 *Threats
-
+Deforestation, cave disturbances, overhunting, heat waves, human structures such as power lines and tree nets
 *Status
-
+Vulnerable (VU) to Least Concern (LC)
+Critically Endangered (CE) to Endangered (EN) (24 species)
 *Genuses
-
+Aethalops
+Alionycteris
+Balionycteris
+Chironax
+Cynopterus
+Dyacopterus
+Haplonycteris
+Latidens
+Megaerops
+Otopteropus
+Penthetor
+Ptenochirus
+Sphaerias
+Thoopterus
+Aproteles
+Boneia
+Dobsonia
+Harpyionycteris
+Nyctimene
+Paranyctimene
+Melonycteris
+Acerodon
+Pteralopex
+Pteropus
+Styloctenium
+Eonycteris
+Epomophorus
+Epomops
+Physignathus
+Micropteroptus
+Nanonycteris
+Pilonycteris
+Megaloglossus
+Myonycteris
+Plerotes
+Rousettus
+Casinycteris
+Scotonycteris
+Stenonycteris
+Notopteris
+mirimiri
+Neopteryx
+Desmalopex
+Turkanycteris
+Macroglossus
+Syconycteris
 *Appearance
-
+These bats can be differentiated by their dog-like faces, clawed second digits, simple ears, and reduced uropatagium. Only Notopteris have tails. They vary greatly in size and color.
 *Size
-
+50 to 406 mm
 *Echolocation?
-
+False
 *ENDDOC
