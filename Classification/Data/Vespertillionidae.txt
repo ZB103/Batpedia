@@ -1,29 +1,92 @@
 *Location
-
+All continents but Antarctica, Oceania
 *Habitat
-
+Tropical to temperate areas, desert. Roosts include caves, hollow trees, rocky crevices, animal burrows, and more.
 *Diet
-
+Insectivorous
+Picivorous (Myotis and Pizonyx)
+Carnivorous (Nyctalus)
 *Social Structure
-
+Colony sizes very from 1 to 1 million individuals.
 *Reproduction
-
+Not much information is available, and that which is varies greatly. They typically exhibit polygynous, polygynandrous, and monogamous groupings. Some mate year-round, others seasonally. They have one offspring at a time.
 *Seasonal Behavior
-
+Hibernation
+Aestivation (some tropic species)
 *Lifespan
-
+4-30+ years
 *Predators
-
+Birds, snakes, raccoons, colubrids, opossums, canidae, skunks, stink badgers, otters, weasels. Hosts for mites, bat flies, bat bugs, ticks
 *Threats
-
+Habitat destruction, deforestation from logging, agriculture, infrastructure, cave disturbances, wind turbines, white nose syndrome
 *Status
-
+Vulnerable (VU) to Least Concern (LC)
+Endangered (EN) (17 species)
+Critically Endangered (CE) (7 species)
 *Genuses
-
+Kerivoula
+Phoniscus
+Eudiscopus
+Myotis
+Submyotodon
+Murina
+Harpiola
+Harpiocephalus
+Antrozous
+Bauerus
+Rhogeessa
+Arielulus
+Eptesicus
+Glauconycteris
+Hesperoptenus
+Histiotus
+Ia
+Lasionycteris
+Scoteanax
+Scotomanes
+Scotorepens
+Thainycteris
+Rhyneptesicus
+Aeorestes
+Dasypterus
+Lasiurus
+Nycticeius
+Parastrellus
+Perimyotis
+Glischropus
+Nyctalus
+Pipistrellus
+Scotoecus
+Scotozous
+Vansonia
+Barbastella
+Corynorhinus
+Euderma
+Idionycteris
+Otonycteris
+Plecotus
+Scotophilus
+Afronycteris
+Cassistrellus
+Chalinolobus
+Falsistrellus
+Hypsugo
+Laophotis
+Mimetillus
+Mirostrellus
+Neoromicia
+Nycticeinops
+Nyctophilus
+Pharotis
+Philetor
+Pseudoromicia
+Tylonycteris
+Vespadelus
+Vespertilio
 *Appearance
-
+This family is very varied but can often be identified by a simple face and lack of true noseleaf, small eyes, and small ears (exceptions being Plecotus, Idionycteris, and Euderma, whose ears fill with blood when the bat is active). Their tails are enclosed by the lower flight membranes. Usually black, brown, or gray in color, except for Kerivoula which are known for their striking bright colors.
 *Size
-
+30-130 mm
 *Echolocation?
-
+Vocal
 *ENDDOC

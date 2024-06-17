@@ -1,25 +1,31 @@
 *Location
-
+North Africa, South Asia
 *Habitat
-
+Arid desert, subtropical/tropical dry shrubland, and semiarid. Roost in caves, cracks in rocks, houses, and Egyptian pyramids
 *Diet
-
+Insectivorous
 *Social Structure
-
+Live in colonies of thousands of individuals where they gather in small, scattered groups of one or both sexes.
+*Reproduction
+Breeding season occurs between February and April, with one offspring annually. Not much is known about their reproduction.
+*Seasonal Behavior
+Aestivation, hibernation
 *Lifespan
-
+(Unknown)
 *Predators
-
+Bark owls
 *Threats
-
+None
 *Status
-
+Least Concern (LC)
+Endangered (EN) (Rhinopoma hadramauticum)
 *Genuses
-
+Rhinopoma
 *Appearance
-
+Small bats with very slim limbs and a long, hairless, mouse-like tail after which they are named. They have a small snout with a simple noseleaf, big ears connected to eyes by a band of skin across the forehead, and large black eyes. They can be gray, brown, and yellow in color.
 *Size
-
+5-6 cm
 *Echolocation?
-
+True
+Primitive/limited (Rhinopoma hardwickii)
 *ENDDOC

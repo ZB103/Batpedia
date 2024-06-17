@@ -21,6 +21,7 @@ class Main{
 		Thyropteridae thyropteridae = new Thyropteridae();
 		Furipteridae furipteridae = new Furipteridae();
 		Mormoopidae mormoopidae = new Mormoopidae();
+		Molossidae molossidae = new Molossidae();
 		Phyllostomidae phyllostomidae = new Phyllostomidae();
 		Myzopodidae myzopodidae = new Myzopodidae();
 		Mystacinidae mystacinidae = new Mystacinidae();

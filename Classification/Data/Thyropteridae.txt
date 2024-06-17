@@ -1,25 +1,29 @@
 *Location
-
+Central and South America
 *Habitat
-
+Tropical rainforests. They roost under dead and curled leaves of banana and heliconia trees.
 *Diet
-
+Insectivorous
 *Social Structure
-
+Roost in groups. In thyroptera tricolor, they form and maintain social groups over long periods. Within social groups, pairs form and maintain contect for as long as 400 consecutive days. They emit contact calls to stay with their group. There is no clear heierarchy. Male and female bats of the same group never mate.
+*Reproduction
+Although suspected to be polygynous, they do not exhibit mate-guarding behaviors typical in other tropical, polygynous bat species. They have one offspring per year, and breeding season is from August to September.
+*Seasonal Behavior
+(Unavailable)
 *Lifespan
-
+(Unavailable)
 *Predators
-
+hawks, falcons, capuchin monkeys, raccoons, South American coatis
 *Threats
-
+Anthropogenic development, habitat disruption
 *Status
-
+Least Concern (LC)
 *Genuses
-
+Thyroptera
 *Appearance
-
+These bats have reduced thumbs enclosed by wing membranes, funnel-shaped ears, brown to black fur, and suction cups found at the base of the thumb and under the heel. They lack a noseleaf, and may have warts above their nostrils and have an abrupt forehead.
 *Size
-
+34-79 mm
 *Echolocation?
-
+(Unavailable)
 *ENDDOC

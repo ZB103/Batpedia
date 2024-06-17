@@ -13,6 +13,7 @@ Noctilionidae
 Thyropteridae
 Furipteridae
 Mormoopidae
+Molossidae
 Phyllostomidae
 Myzopodidae
 Mystacinidae
