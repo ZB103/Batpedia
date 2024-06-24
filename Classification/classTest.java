@@ -120,6 +120,18 @@ public class classTest{
 		
 		System.out.println();
 		
+		//Molossidae
+		System.out.println("---Testing Molossidae---");
+		Molossidae molossidae = new Molossidae();
+		System.out.println(molossidae.getDomain());
+		System.out.println(molossidae.getKingdom());
+		System.out.println(molossidae.getPhylum());
+		System.out.println(molossidae.getAnimalClass());
+		System.out.println(molossidae.getOrder());
+		System.out.println(molossidae.getSuborder());
+		
+		System.out.println();
+		
 		//Phyllostomidae
 		System.out.println("---Testing Phyllostomidae---");
 		Phyllostomidae phyllostomidae = new Phyllostomidae();

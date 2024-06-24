@@ -36,7 +36,8 @@ public class Chiroptera{
 	
 	//Retrieve data from text file
 	//Mediator function
-	public void getData(String requestedData) throws IOException{
+	public String getData(String requestedData) throws IOException{
+		String finalString = "";
 		//Initialize classes
 		File file = new File("C:\\Users\\zbake\\Desktop\\Programming\\GitHub\\Batpedia\\Classification\\Data\\Chiroptera.txt");	//Remove hard-code later
 		FileReader fr = new FileReader(file);
@@ -48,39 +49,42 @@ public class Chiroptera{
 		while((line = br.readLine()) != null){fullString += line + "\n";}
 		
 		//Call requested data based on
-		if(requestedData.equals("order")){displayOrderData(fullString);}
-		else if(requestedData.equals("frequency")){displayFrequencyData(fullString);}
-		else if(requestedData.equals("diversity")){displayDiversityData(fullString);}
+		if(requestedData.equals("order")){finalString = displayOrderData(fullString);}
+		else if(requestedData.equals("frequency")){finalString = displayFrequencyData(fullString);}
+		else if(requestedData.equals("diversity")){finalString = displayDiversityData(fullString);}
 		
 		//Close resources
 		br.close();
 		fr.close();
+		
+		//Return data
+		return finalString;
 	}
 	
 	//Displays data on the order
-	private void displayOrderData(String fullString){
+	private String displayOrderData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Order") + 6,
 			fullString.indexOf("*Frequency"));
-		//Use data - temporary print statement
-		System.out.println(finalString);
+		//Return data
+		return finalString;
 	}
 	
 	//Displays data on the frequency of bats
-	private void displayFrequencyData(String fullString){
+	private String displayFrequencyData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Frequency") + 10,
 			fullString.indexOf("*Diversity"));
-		//Use data - temporary print statement
-		System.out.println(finalString);
+		//Return data
+		return finalString;
 	}
 	
 	//Displays data on overview of diversity of bats
-	private void displayDiversityData(String fullString){
+	private String displayDiversityData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Diversity") + 10,
 			fullString.indexOf("*ENDDOC"));
-		//Use data - temporary print statement
-		System.out.println(finalString);
+		//Return data
+		return finalString;
 	}
 }

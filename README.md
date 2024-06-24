@@ -11,6 +11,7 @@ Disclaimer: Some of the images used in this project may be subject to copyright.
 
 TODO
 -Standardize structure of data
+-Consolidate classes with significant redundancy
 -Build basic GUI - buttons show text
 -Implement design choices, including photos
 

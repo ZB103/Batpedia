@@ -36,7 +36,8 @@ public class Yangochiroptera extends Chiroptera{
 	
 	//Retrieve data from text file
 	//Mediator function
-	public void getData(String requestedData) throws IOException{
+	public String getData(String requestedData) throws IOException{
+		String finalString = "";
 		//Initialize classes
 		File file = new File("C:\\Users\\zbake\\Desktop\\Programming\\GitHub\\Batpedia\\Classification\\Data\\Yangochiroptera.txt");	//Remove hard-code later
 		FileReader fr = new FileReader(file);
@@ -45,22 +46,25 @@ public class Yangochiroptera extends Chiroptera{
 		//Get contents of file
 		String fullString = "";	//String of full file transcription
 		String line;
-		while((line = br.readLine()) != null){fullString += line + "\n";}
+		while((line = br.readLine()) != null){finalString = fullString += line + "\n";}
 		
 		//Call requested data based on
-		if(requestedData.equals("suborder")){displayOrderData(fullString);}
+		if(requestedData.equals("suborder")){finalString = displayOrderData(fullString);}
 		
 		//Close resources
 		br.close();
 		fr.close();
+		
+		//Return data
+		return finalString;
 	}
 	
 	//Displays data on the suborder
-	private void displayOrderData(String fullString){
+	private String displayOrderData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Suborder") + 10,
 			fullString.indexOf("*ENDDOC"));
-		//Use data - temporary print statement
-		System.out.println(finalString);
+		//Return data
+		return finalString;
 	}
 }
