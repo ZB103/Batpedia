@@ -16,7 +16,6 @@ TODO
 
 Begun
 -Extract and display text from files using class methods
--Find/create range images for GUI
 
 Completed
 -Organize bat categories into classes
