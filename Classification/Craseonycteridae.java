@@ -25,7 +25,7 @@ public class Craseonycteridae extends Yinpterochiroptera{
 	public String getData(String requestedData) throws IOException{
 		String finalString = "";
 		//Initialize classes
-		File file = new File("C:\\Users\\zbake\\Desktop\\Programming\\GitHub\\Batpedia\\Classification\\Data\\Craseonycteridae.txt");	//Remove hard-code later
+		File file = new File("Classification\\Data\\Craseonycteridae.txt");
 		FileReader fr = new FileReader(file);
 		BufferedReader br = new BufferedReader(fr);
 		

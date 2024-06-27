@@ -33,19 +33,9 @@ class Main{
 		
 		
 		//testing
+		System.out.println(chiroptera.getData("order"));
+		System.out.println(yangochiroptera.getData("suborder"));
+		System.out.println(yinpterochiroptera.getData("suborder"));
 		System.out.println(craseonycteridae.getData("location"));
-		System.out.println(craseonycteridae.getData("habitat"));
-		System.out.println(craseonycteridae.getData("diet"));
-		System.out.println(craseonycteridae.getData("social"));
-		System.out.println(craseonycteridae.getData("reproduction"));
-		System.out.println(craseonycteridae.getData("seasonal"));
-		System.out.println(craseonycteridae.getData("lifespan"));
-		System.out.println(craseonycteridae.getData("predators"));
-		System.out.println(craseonycteridae.getData("threats"));
-		System.out.println(craseonycteridae.getData("status"));
-		System.out.println(craseonycteridae.getData("genera"));
-		System.out.println(craseonycteridae.getData("appearance"));
-		System.out.println(craseonycteridae.getData("size"));
-		System.out.println(craseonycteridae.getData("echo"));
 	}
 }
