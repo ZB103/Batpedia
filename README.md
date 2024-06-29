@@ -16,9 +16,10 @@ TODO
 -Implement design choices, including photos
 
 Begun
--Extract and display text from files using class methods
+
 
 Completed
 -Organize bat categories into classes
 -Find bat images for GUI
 -Fill out data files for families
+-Extract and display text from files using class methods

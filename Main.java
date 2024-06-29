@@ -5,37 +5,35 @@ import java.io.IOException;
 class Main{
 	//Entry point main
 	public static void main(String[] args) throws IOException{
-		//Initialization			//Make all of these static
 		//Order
 		Chiroptera chiroptera = new Chiroptera();
-		Yangochiroptera yangochiroptera = new Yangochiroptera();
-		Yinpterochiroptera yinpterochiroptera = new Yinpterochiroptera();
+		Suborder yinpterochiroptera = new Suborder("Yinpterochiroptera");
+		Suborder yangochiroptera = new Suborder("Yangochiroptera");
 		//Yango
-		Emballonuridae emballonuridae = new Emballonuridae();
-		Noctilionidae noctilionidae = new Noctilionidae();
-		Thyropteridae thyropteridae = new Thyropteridae();
-		Furipteridae furipteridae = new Furipteridae();
-		Mormoopidae mormoopidae = new Mormoopidae();
-		Molossidae molossidae = new Molossidae();
-		Phyllostomidae phyllostomidae = new Phyllostomidae();
-		Myzopodidae myzopodidae = new Myzopodidae();
-		Mystacinidae mystacinidae = new Mystacinidae();
-		Miniopteridae miniopteridae = new Miniopteridae();
-		Natalidae natalidae = new Natalidae();
-		Vespertillionidae vespertillionidae = new Vespertillionidae();
+		String ya = "Yangochiroptera";
+		Family emballonuridae = new Family("Emballonuridae", ya);
+		Family noctilionidae = new Family("Noctilionidae", ya);
+		Family thyropteridae = new Family("Thyropteridae", ya);
+		Family furipteridae = new Family("Furipteridae", ya);
+		Family mormoopidae = new Family("Mormoopidae", ya);
+		Family molossidae = new Family("Molossidae", ya);
+		Family phyllostomidae = new Family("Phyllostomidae", ya);
+		Family myzopodidae = new Family("Myzopodidae", ya);
+		Family mystacinidae = new Family("Mystacinidae", ya);
+		Family miniopteridae = new Family("Miniopteridae", ya);
+		Family natalidae = new Family("Natalidae", ya);
+		Family vespertillionidae = new Family("Vespertillionidae", ya);
 		//Yin
-		Pteropodidae pteropodidae = new Pteropodidae();
-		Rhinopomatidae rhinopomatidae = new Rhinopomatidae();
-		Megadermatidae megadermatidae = new Megadermatidae();
-		Craseonycteridae craseonycteridae = new Craseonycteridae();
-		Hipposideridae hipposideridae = new Hipposideridae();
-		Rhinolophidae rhinolophidae = new Rhinolophidae();
+		String yi = "Yinpterochiroptera";
+		Family pteropodidae = new Family("Pteropodidae", yi);
+		Family rhinopomatidae = new Family("Rhinopomatidae", yi);
+		Family megadermatidae = new Family("Megadermatidae", yi);
+		Family craseonycteridae = new Family("Craseonycteridae", yi);
+		Family hipposideridae = new Family("Hipposideridae", yi);
+		Family rhinolophidae = new Family("Rhinolophidae", yi);
 		
 		
 		//testing
-		System.out.println(chiroptera.getData("order"));
-		System.out.println(yangochiroptera.getData("suborder"));
-		System.out.println(yinpterochiroptera.getData("suborder"));
-		System.out.println(craseonycteridae.getData("location"));
+		
 	}
 }

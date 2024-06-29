@@ -6,8 +6,10 @@ import java.io.IOException;
 
 /*
 
-This is the highest class (order Chiroptera), holding the rest of the variables
-since all bats have the same classification from "ORDER" up.
+class Chiroptera is the highest parent class
+which provides information on the order Chiroptera;
+all bats have the same classification from "ORDER" up.
+
 Holds the following subclasses:
 Yangochiroptera
 Yingpterochiroptera
@@ -24,7 +26,7 @@ public class Chiroptera{
 
 	
 	public Chiroptera(){
-		//System.out.println("Chiroptera order established");
+		return;
 	}
 	
 	//Getters
