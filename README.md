@@ -11,15 +11,15 @@ Disclaimer: Some of the images used in this project may be subject to copyright.
 
 TODO
 -Standardize structure of data
--Consolidate classes with significant redundancy
 -Build basic GUI - buttons show text
 -Implement design choices, including photos
 
 Begun
-
+N/A
 
 Completed
 -Organize bat categories into classes
 -Find bat images for GUI
 -Fill out data files for families
 -Extract and display text from files using class methods
+-Consolidate classes with significant redundancy
