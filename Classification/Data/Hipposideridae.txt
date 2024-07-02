@@ -1,7 +1,7 @@
 *Location
-Africa, south Asia, Australia, Philippine Islands, and Solomon Islands
+Africa, south Asia, Australia, Philippine Islands, Solomon Islands
 *Habitat
-tropical and subtropical - deserts, dunes, savannas, grasslands, forests, rainforests, scrub forests, and mangroves. Most species roost in dark, enclosed spaces such as caves, hollow trees, and underground structures. Some also roost in trees.
+Tropical and subtropical - deserts, dunes, savannas, grasslands, forests, rainforests, scrub forests, and mangroves. Most species roost in dark, enclosed spaces such as caves, hollow trees, and underground structures, while some roost in trees.
 *Diet
 Insectivorous
 *Social Structure
@@ -15,7 +15,7 @@ Some species have been found to live over 10 years, but not much else is known.
 *Predators
 Snakes, hawks, owls, falcons, dasyruids, parasitic species
 *Threats
-Deforestation and habitat loss, overhunting
+Deforestation, habitat loss, and overhunting threaten these bats.
 *Status
 Vulnerable (VU)-Least Concern (LC)
 Endangeted (EN) (H. demissus, H. sorenseni)
@@ -28,9 +28,9 @@ Doryrhina
 Hipposideros
 Macronycteris
 *Appearance
-Small to medium bats, body color ranges from white to red to dark brown, and fur ranges in length and texture. They may have small or large ears and may or may not have a tail. The appearance of the noseleaf is varied but elaborate. Many have a small sac posterior to the nose leaf.
+These are small to medium bats whose body color ranges from white to red to dark brown, and fur ranges in length and texture. They may have small or large ears and may or may not have a tail. The appearance of the noseleaf is varied but elaborate. Many have a small sac posterior to the nose leaf.
 *Size
-28-110 mm
+1.1-4.3 in (2.8-11 cm)
 *Echolocation?
 True
 *ENDDOC

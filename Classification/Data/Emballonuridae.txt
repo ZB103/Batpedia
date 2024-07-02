@@ -1,19 +1,19 @@
 *Location
 Neotropics, Afrotropics, southern Asia, Australia, South Pacific islands
 *Habitat
-Roosting in illuminated areas such as hollow trees and entryways to caves or human structures. Tropical and subtropical.
+Tropical and subtropical, roosting in illuminated areas such as hollow trees and entryways to caves or human structures.
 *Diet
 Primarily insectivorous, occasionally seen eating fruit
 *Social Structure
 These bats often live in large congregations of up to 15,000 individuals. Some species live in groups of less than 10, with no more than 1 female.
 *Reproduction
-Polygynous - one male breeds with 2-8 females. Variety in breeding seasons, but tend to have 1 offspring a year.
+Females give birth to 1 offspring a year, and breeding seasons vary. The breeding structure is polygynous.
 *Seasonal Behavior
 Possible seasonal migration
 *Lifespan
 (Unavailable)
 *Predators
-Snakes, owls, and hawks
+Snakes, owls, hawks
 *Threats
 (Unavailable)
 *Status
@@ -36,7 +36,7 @@ Taphozous
 *Appearance
 Most bats in this family are brown or gray, except for white ghost bats (Diclidurus) and white-striped bats (Saccopteryx). They are small to medium with a smooth face and no leaf nose. Their ears are simple and round, often united with a band of skin across the forehead, and their muzzles are short and broad. They are named after their tails which seem to be sheathed in a membrane with the tip protruding from it. Most bats have wing sacs after which the family is also named.
 *Size
-3.5-10 cm
+1.4-3.9 in (3.5-10 cm)
 *Echolocation?
 True
 *ENDDOC

@@ -1,7 +1,7 @@
 *Location
 All continents but Antarctica, Oceania
 *Habitat
-Tropical to temperate areas, desert. Roosts include caves, hollow trees, rocky crevices, animal burrows, and more.
+Tropical to temperate areas, desert. Roost include caves, hollow trees, rocky crevices, animal burrows.
 *Diet
 Insectivorous
 Picivorous (Myotis and Pizonyx)
@@ -9,7 +9,7 @@ Carnivorous (Nyctalus)
 *Social Structure
 Colony sizes very from 1 to 1 million individuals.
 *Reproduction
-Not much information is available, and that which is varies greatly. They typically exhibit polygynous, polygynandrous, and monogamous groupings. Some mate year-round, others seasonally. They have one offspring at a time.
+Females have 1 offspring a year, but breeding practices vary greatly. They typically exhibit polygynous, polygynandrous, and monogamous groupings. Some mate year-round, others seasonally.
 *Seasonal Behavior
 Hibernation
 Aestivation (some tropic species)
@@ -18,7 +18,7 @@ Aestivation (some tropic species)
 *Predators
 Birds, snakes, raccoons, colubrids, opossums, canidae, skunks, stink badgers, otters, weasels. Hosts for mites, bat flies, bat bugs, ticks
 *Threats
-Habitat destruction, deforestation from logging, agriculture, infrastructure, cave disturbances, wind turbines, white nose syndrome
+Human threats include habitat destruction, deforestation from logging, agriculture, infrastructure, cave disturbances, and wind turbines; white nose syndrome is also a huge problem.
 *Status
 Vulnerable (VU) to Least Concern (LC)
 Endangered (EN) (17 species)
@@ -84,9 +84,9 @@ Tylonycteris
 Vespadelus
 Vespertilio
 *Appearance
-This family is very varied but can often be identified by a simple face and lack of true noseleaf, small eyes, and small ears (exceptions being Plecotus, Idionycteris, and Euderma, whose ears fill with blood when the bat is active). Their tails are enclosed by the lower flight membranes. Usually black, brown, or gray in color, except for Kerivoula which are known for their striking bright colors.
+This family is very varied but can often be identified by a simple face and lack of true noseleaf, small eyes, and small ears (exceptions being Plecotus, Idionycteris, and Euderma, whose ears fill with blood when the bat is active). Their tails are enclosed by the lower flight membranes. They are usually black, brown, or gray in color, except for Kerivoula which are known for their striking bright colors.
 *Size
-30-130 mm
+1.2-5.1 in (3-13 cm)
 *Echolocation?
 Vocal
 *ENDDOC

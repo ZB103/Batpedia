@@ -10,12 +10,11 @@ Disclaimer: Some of the images used in this project may be subject to copyright.
 
 
 TODO
--Standardize structure of data
 -Build basic GUI - buttons show text
 -Implement design choices, including photos
 
 Begun
-N/A
+-Standardize structure of data
 
 Completed
 -Organize bat categories into classes
