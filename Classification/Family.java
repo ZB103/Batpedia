@@ -38,16 +38,19 @@ Rhinopomatidae
 
 public class Family extends Suborder{
 	private final String family;
+	private final String commonName;
 	private final String filepath;
 	
-	public Family(String fam, String subord){
+	public Family(String fam, String name, String subord){
 		super(subord);
 		family = fam;
+		commonName = name;
 		filepath = "Classification\\Data\\" + getFamily() + ".txt";
 	}
 	
 	//Getters
 	public String getFamily(){return family;}
+	public String getCommonName(){return commonName;}
 	
 	//Retrieve data from text file
 	//Mediator function

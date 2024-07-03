@@ -1,9 +1,10 @@
 *Location
 Neotropics, Afrotropics, southern Asia, Australia, South Pacific islands
 *Habitat
-Tropical and subtropical, roosting in illuminated areas such as hollow trees and entryways to caves or human structures.
+These bats are found in tropical and subtropical regions, roosting in illuminated areas such as hollow trees and entryways to caves or human structures.
 *Diet
-Primarily insectivorous, occasionally seen eating fruit
+Insectivorous (primarily)
+Frugivorous (occasionally)
 *Social Structure
 These bats often live in large congregations of up to 15,000 individuals. Some species live in groups of less than 10, with no more than 1 female.
 *Reproduction
@@ -13,7 +14,7 @@ Possible seasonal migration
 *Lifespan
 (Unavailable)
 *Predators
-Snakes, owls, hawks
+Predators include snakes, owls, and hawks.
 *Threats
 (Unavailable)
 *Status

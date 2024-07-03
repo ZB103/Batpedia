@@ -1,11 +1,11 @@
 *Location
-northern Mexico to southern Brazil, West Indies
+Northern Mexico to southern Brazil, West Indies
 *Habitat
-Tropical lowlands, dry deciduous forests
+These bats live in tropical lowlands and dry deciduous forests, roosting in caves and mines.
 *Diet
 Insectivorous
 *Social Structure
-These bats roost in caves and mines with social groups ranging from 1 to 10,000 individuals.
+They live within social groups ranging from 1 to 10,000 individuals. Not much else is known.
 *Reproduction
 Females gather in maternity colonies and give birth to a single offspring in the late dry season.
 *Seasonal Behavior
@@ -13,20 +13,21 @@ Females gather in maternity colonies and give birth to a single offspring in the
 *Lifespan
 (Unknown)
 *Predators
-Cats
+Cats are their only known predator.
 *Threats
-Habitat loss
+Habitat loss threatens these bats.
 *Status
 Vulnerable (VU) to Least Concern (LC)
-Critically Endangered (CE) (Natalus jamaicensis)
+Critically Endangered (CE) (N. jamaicensis)
 *Genera
+(Monospecific Nyctiellus)
 Nyctiellus lepidus
 Chilonatalus
 Natalus
 *Appearance
-Small, long-legged bats with highly angular faces, large ears, and no noseleaf. Their fur can be brown, grey, yellow, or reddish. Their tail is enclosed in a well-developed uropatagium. Adult males have a natalid organ on the muzzle or face.
+These are small, long-legged bats with highly angular faces, large ears, and no noseleaf. Their fur can be brown, grey, yellow, or reddish. Their tail is enclosed in a well-developed uropatagium. Adult males have a natalid organ on the muzzle or face.
 *Size
-3.5-5.5 cm
+1.4-2.2 in (3.5-5.5 cm)
 *Echolocation?
 True
 *ENDDOC

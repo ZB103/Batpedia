@@ -1,29 +1,31 @@
 *Location
 Central and South America
 *Habitat
-Tropical rainforests. They roost under dead and curled leaves of banana and heliconia trees.
+These bats are found in tropical rainforests, roosting under dead and curled leaves of banana and heliconia trees.
 *Diet
 Insectivorous
 *Social Structure
-Roost in groups. In thyroptera tricolor, they form and maintain social groups over long periods. Within social groups, pairs form and maintain contect for as long as 400 consecutive days. They emit contact calls to stay with their group. There is no clear heierarchy. Male and female bats of the same group never mate.
+These bats roost in groups.
+In T. tricolor, they form and maintain social groups over long periods. Within social groups, pairs form and maintain contact for as long as 400 consecutive days. They emit contact calls to stay with their group. There is no clear hierarchy. Male and female bats of the same group never mate.
 *Reproduction
-Although suspected to be polygynous, they do not exhibit mate-guarding behaviors typical in other tropical, polygynous bat species. They have one offspring per year, and breeding season is from August to September.
+They have one offspring per year, and breeding season is from August to September. Although suspected to be polygynous, they do not exhibit mate-guarding behaviors typical in other tropical, polygynous bat species.
 *Seasonal Behavior
 (Unavailable)
 *Lifespan
 (Unavailable)
 *Predators
-hawks, falcons, capuchin monkeys, raccoons, South American coatis
+Predators include hawks, falcons, capuchin monkeys, raccoons, and South American coatis.
 *Threats
-Anthropogenic development, habitat disruption
+Anthropogenic development and habitat disruption threaten these bats.
 *Status
 Least Concern (LC)
 *Genuses
+(Monogeneric)
 Thyroptera
 *Appearance
-These bats have reduced thumbs enclosed by wing membranes, funnel-shaped ears, brown to black fur, and suction cups found at the base of the thumb and under the heel. They lack a noseleaf, and may have warts above their nostrils and have an abrupt forehead.
+These bats have reduced thumbs enclosed by wing membranes, funnel-shaped ears, brown to black fur, and suction cups found at the base of the thumb and under the heel. They lack a noseleaf, have an abrupt forehead, and may have warts above their nostrils.
 *Size
-34-79 mm
+1.3-3 in (3.4-7.9 cm)
 *Echolocation?
 (Unavailable)
 *ENDDOC

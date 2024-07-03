@@ -1,31 +1,32 @@
 *Location
 Mexico to Argentina, Caribbean Islands
 *Habitat
-Found near water in the neotropics. Tend to have a main roosting spot and several alternatives. They roost in hollow trees and deep cracks in rocks.
+These bats are found near water in the neotropics. They tend to have a main roosting spot and several alternatives. They roost in hollow trees and deep cracks in rocks.
 *Diet
 Insectivorous (N. albiventris)
-Primarily piscivorous, occasionally insectivorous (N. leporinus)
+Piscivorous (primarily), insectivorous (occasionally) (N. leporinus)
 *Social Structure
 Female bats live together in groups for years, unaffected by changes in male residents as they move between reproductive seasons, or movement of location. Females may hunt alone or with groupmates, often frequenting the same hunting grounds, while males hunt alone often in separate areas from females.
 *Reproduction
-Females breed in September to January and have one offspring per year. Uncommonly in bats, both males and females care for the young. They are polygynous, and reproduction corresponds to greater food availability.
+Females breed in September to January and have one offspring per year. Uniquely in bats, both males and females care for the young. They are polygynous, and reproduction corresponds to greater food availability.
 *Seasonal Behavior
 (Unknown)
 *Lifespan
 c. 10 years
 *Predators
-Large birds
+Predators include large birds.
 *Threats
-Water polution, hunting from fear, cave disturbances, deforestation
+Water pollution, fear hunting, cave disturbances, and deforestation threaten these bats.
 *Status
 Least Concern (LC)
 *Genera
+(Monogeneric)
 Noctilio albiventris
 Noctilio leporinus
 *Appearance
-Large bats with bright orange or red (male) or gray or brown (female) full and pale undersides. They may have a pale line that runs down the middle of their back. They have elongated, pointed ears and and an upper lip that is divided by a skin fold, while the chin has well-developed cross ridges, resembling the bulldog/mastiff they are named after. Their feet are relatively very large, and their legs are proportionally longer than most bats. They have a tail that extends to the middle of the tail membrane.
+These bats are large, with bright orange or red (male) or gray or brown (female) full and pale undersides. They may have a pale line that runs down the middle of their back. They have elongated, pointed ears and an upper lip that is divided by a skin fold, while the chin has well-developed cross ridges, resembling the bulldog/mastiff they are named after. Their feet are relatively very large, and their legs are proportionally longer than most bats. They have a tail that extends to the middle of the tail membrane.
 *Size
-5.7-12.7 cm
+2.2-5 in (5.7-12.7 cm)
 *Echolocation?
 True
 *ENDDOC

@@ -1,31 +1,32 @@
 *Location
 Africa, Australia, Asia, Europe, Oceania
 *Habitat
-Forested and unforested, majority occurring in tropical and subtropical areas. They roost in a variety of places including buildings, caves, tree hollows, and foliage.
+These bats are found in forested and unforested areas, the majority occurring in tropical and subtropical regions. They roost in a variety of places including buildings, caves, tree hollows, and foliage.
 *Diet
 Insectivorous
 *Social Structure
-Social structure varies. Some species are solitary while others live in colonies of thousands of individuals. In some species, the sexes segregate annually when females form maternity colonies.
+Some species are solitary while others live in colonies of thousands of individuals. In some species, the sexes segregate annually when females form maternity colonies.
 *Reproduction
-At least one species is monogamous (Rhinolophus sedulus) and at least one is polygynous as most bats are. They have one offspring at a time. Not much is known about most of the species.
+They have one offspring at a time. At least one species is monogamous (R.  sedulus) and at least one is polygynous as most bats are. Not much is known about most of the species.
 *Seasonal Behavior
 Hibernation
 *Lifespan
 6-7 years; one horseshoe bat lived over 30 years
 *Predators
-Hawks, eagles, kites, falcons, owls, snakes, domestic cats. Parasites mites, ticks, fleas, and bat flies.
+Predators include hawks, eagles, kites, falcons, owls, snakes, and domestic cats; and parasites include mites, ticks, fleas, and bat flies.
 *Threats
-Cave disturbances
+Cave disturbances are among the threats to these bats.
 *Status
 Vulnerable (VU) to Least Concern (LC)
 Endangered (EN) (13 species)
-Critically Endangered (CE) (Rhinolophus hilli)
+Critically Endangered (CE) (R. hilli)
 *Genuses
+(Monogeneric)
 Rhinolophus
 *Appearance
 Small to medium bats with reddish-brown, blackish, or bright orange-red full. Their noseleafs are large and horseshoe-shaped, which is where they get their name. 
 *Size
-35-110 mm
+1.4-4.3 in (3.5-11 cm)
 *Echolocation?
 True
 *ENDDOC

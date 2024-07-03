@@ -1,7 +1,7 @@
 *Location
 All continents but Antarctica, Oceania
 *Habitat
-Tropical to temperate areas, desert. Roost include caves, hollow trees, rocky crevices, animal burrows.
+These bats are found in tropical to temperate areas and desert. They roost include caves, hollow trees, rocky crevices, animal burrows.
 *Diet
 Insectivorous
 Picivorous (Myotis and Pizonyx)
@@ -16,7 +16,7 @@ Aestivation (some tropic species)
 *Lifespan
 4-30+ years
 *Predators
-Birds, snakes, raccoons, colubrids, opossums, canidae, skunks, stink badgers, otters, weasels. Hosts for mites, bat flies, bat bugs, ticks
+Predators include birds, snakes, raccoons, Colubrids, opossums, Canidae, skunks, stink badgers, otters, and weasels. They are hosts for mites, bat flies, bat bugs, and ticks.
 *Threats
 Human threats include habitat destruction, deforestation from logging, agriculture, infrastructure, cave disturbances, and wind turbines; white nose syndrome is also a huge problem.
 *Status

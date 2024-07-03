@@ -1,7 +1,7 @@
 *Location
 Thailand, Myanmar
 *Habitat
-Evergreen and deciduous forest, roosting in limestone caves.
+Theses bats are found in evergreen and deciduous forests, roosting in limestone caves.
 *Diet
 Insectivorous
 *Social Structure
@@ -13,16 +13,16 @@ Migration between caves
 *Lifespan
 (Unavailable)
 *Predators
-Birds, snakes, squirrels, cats
+Predators include birds, snakes, squirrels, and cats.
 *Threats
 Tourism, killing for science and souvenirs, and local monks seeking caves for meditation all cause minor disturbances to roosts. The largest threat is the annual burning of forests most prevalent during breeding season.
 *Status
 Near Threatened (NT)
 *Genera
-Monogeneric, monospecific
+(Monogeneric, monospecific)
 Craseonycteris thonglongyai
 *Appearance
-These bats are reddish-brown or gray with a pig-like snout and pointy ears. Kitti's Hog-Nosed Bat is the smallest mammal by length.
+These bats are reddish-brown or gray with a pig-like snout and pointy ears. This bat is the smallest mammal by length.
 *Size
 1.1-1.3 in (2.8-3.3 cm)
 *Echolocation?

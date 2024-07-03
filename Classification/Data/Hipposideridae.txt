@@ -1,7 +1,7 @@
 *Location
 Africa, south Asia, Australia, Philippine Islands, Solomon Islands
 *Habitat
-Tropical and subtropical - deserts, dunes, savannas, grasslands, forests, rainforests, scrub forests, and mangroves. Most species roost in dark, enclosed spaces such as caves, hollow trees, and underground structures, while some roost in trees.
+These bats are found in tropical and subtropical regions, including deserts, dunes, savannas, grasslands, forests, rainforests, scrub forests, and mangroves. Most species roost in dark, enclosed spaces such as caves, hollow trees, and underground structures, while some roost in trees.
 *Diet
 Insectivorous
 *Social Structure
@@ -13,7 +13,7 @@ One species of leaf-nosed bats are thought to migrate. Not much information is k
 *Lifespan
 Some species have been found to live over 10 years, but not much else is known.
 *Predators
-Snakes, hawks, owls, falcons, dasyruids, parasitic species
+Predators include snakes, hawks, owls, falcons, and Dasyruids, and they are hosts to parasitic species.
 *Threats
 Deforestation, habitat loss, and overhunting threaten these bats.
 *Status

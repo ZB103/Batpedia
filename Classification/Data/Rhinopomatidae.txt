@@ -1,31 +1,33 @@
 *Location
 North Africa, South Asia
 *Habitat
-Arid desert, subtropical/tropical dry shrubland, and semiarid. Roost in caves, cracks in rocks, houses, and Egyptian pyramids
+These bats are found in arid desert, subtropical/tropical dry shrubland, and semiarid regions. They roost in caves, cracks in rocks, houses, and Egyptian pyramids.
 *Diet
 Insectivorous
 *Social Structure
-Live in colonies of thousands of individuals where they gather in small, scattered groups of one or both sexes.
+They live in colonies of thousands of individuals where they gather in small, scattered groups of one or both sexes.
 *Reproduction
-Breeding season occurs between February and April, with one offspring annually. Not much is known about their reproduction.
+They have one offspring per season, with breeding season occurring between February and April. Not much is known about their reproduction.
 *Seasonal Behavior
-Aestivation, hibernation
+Aestivation (certain species)
+Hibernation (certain species)
 *Lifespan
 (Unknown)
 *Predators
-Bark owls
+Predators include bark owls.
 *Threats
-None
+No threats are explicitly recorded.
 *Status
 Least Concern (LC)
-Endangered (EN) (Rhinopoma hadramauticum)
+Endangered (EN) (R. hadramauticum)
 *Genuses
+(Monogeneric)
 Rhinopoma
 *Appearance
-Small bats with very slim limbs and a long, hairless, mouse-like tail after which they are named. They have a small snout with a simple noseleaf, big ears connected to eyes by a band of skin across the forehead, and large black eyes. They can be gray, brown, and yellow in color.
+They are small bats with very slim limbs and a long, hairless, mouse-like tail after which they are named. They have a small snout with a simple noseleaf, big ears connected to eyes by a band of skin across the forehead, and large black eyes. They can be gray, brown, and yellow in color.
 *Size
-5-6 cm
+2-2.4 in (5-6 cm)
 *Echolocation?
 True
-Primitive/limited (Rhinopoma hardwickii)
+Primitive/limited (R. hardwickii)
 *ENDDOC

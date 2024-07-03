@@ -1,22 +1,22 @@
 *Location
 Africa, Middle East, south Asia, Philippines, north/east Australia
 *Habitat
-Tropical, subtropical, temperate
+These bats are found in tropical, subtropical, and temperate environments.
 *Diet
 Frugivorous
-Nectarivorous (several species)
+Nectivorous (certain species)
 *Social Structure
-Highly gregarious, very vocal, and capable of acquirindg a dialect from their mothers. Most are crepusclar, some octurmal, and a few island species diurnal. Most roost in trees of up to 1 million individuals. A few cave-roosting species occur in groups of 10 to several thousand. Solitary species and small groups tend to have less fidelity in their roosts.
+They are highly gregarious, very vocal, and capable of acquiring a dialect from their mothers. Most are crepuscular, some nocturnal, and a few island species diurnal. Most roost in trees of up to 1 million individuals. A few cave-roosting species occur in groups of 10 to several thousand. Solitary species and small groups tend to have less fidelity in their roosts.
 *Reproduction
 Some megabats are seasonal breeders, while others breed throughout the year. They have one offspring at a time.
 *Seasonal Behavior
-Migration
+Seasonal migration
 *Lifespan
 25+ years
 *Predators
-Few to no native predators include mangrove monitor for some species. Non-native predators include domestic cats, rats, brown tree snake. Parasites such as bat flies and Demodex mites.
+These bats have few to no native predators, but include the mangrove monitor for some species. Non-native predators include domestic cats, rats, and brown tree snake. They are hosts for parasites such as bat flies and Demodex mites.
 *Threats
-Deforestation, cave disturbances, overhunting, heat waves, human structures such as power lines and tree nets
+Deforestation, cave disturbances, overhunting, heat waves, and human structures such as power lines and tree nets threaten populations.
 *Status
 Vulnerable (VU) to Least Concern (LC)
 Critically Endangered (CE) to Endangered (EN) (24 species)
@@ -61,16 +61,16 @@ Casinycteris
 Scotonycteris
 Stenonycteris
 Notopteris
-mirimiri
+Mirimiri
 Neopteryx
 Desmalopex
 Turkanycteris
 Macroglossus
 Syconycteris
 *Appearance
-These bats can be differentiated by their dog-like faces, clawed second digits, simple ears, and reduced uropatagium. Only Notopteris have tails. They vary greatly in size and color.
+These bats can be differentiated by their dog-like faces, clawed second digits, simple ears, and reduced uropatagium. Only Notopteris have tails. They vary greatly in size and color, and include the largest of the bat species.
 *Size
-50 to 406 mm
+2-16 in (5 to 40.6 cm)
 *Echolocation?
 False
 *ENDDOC

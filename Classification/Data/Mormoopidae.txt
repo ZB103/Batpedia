@@ -1,11 +1,11 @@
 *Location
 Arizona, Texas, Central America, northern South America
 *Habitat
-Typically live near water. Found in a range of habitats from rainforest to arid.
+These bats are found in a range of habitats from rainforest to arid, typically near water.
 *Diet
 Insectivorous
 *Social Structure
-Roost gregariously with 100 to 50,000 individuals. Pteronotus gymnonotus is often found roosting with other species. P. personatus tends to be the minority in a given roost.
+These bats roost gregariously with 100 to 50,000 individuals. P. gymnonotus is often found roosting with other species. P. personatus tends to be the minority in a given roost.
 *Reproduction
 Mating season is in January and February, and females have 1 offspring a year. Several species are seasonally monogamous. Pregnant females are sensitive to changes in temperature and so roost deeper inside of caves in maternity roosts.
 *Seasonal Behavior
@@ -13,19 +13,19 @@ None
 *Lifespan
 Unknown, estimated 20 years
 *Predators
-Owls, snakes, hawks
+Predators include owls, snakes, and hawks.
 *Threats
-Cave vandalism, hunting out of fear
+Cave vandalism, fear hunting, and other human activities threaten their populations.
 *Status
 Least Concern (LC)
-Endangered (EN) (Pteronotus paraguanensis)
+Endangered (EN) (P. paraguanensis)
 *Genera
 Mormoops
 Pteonotus
 *Appearance
-Small to medium in size, lacking a well-developed noseleaf but with a small bump on their nose. They have large lips and a funnel-shaped mouth. Mormoopids have a fringe of hairs that form a "moustache" on their muzzles which they are named after and elaborate facial features. They often have brown or reddish fur, but it can vary greatly. P. quadridens color ranges from grayish brown to yellowish brown, indicative of age or bleaching due to roost ammonia.
+Small to medium in size, lacking a well-developed noseleaf but with a small bump on their nose. They have large lips and a funnel-shaped mouth. Mormoopids have a fringe of hairs that form a "moustache" on their muzzles, which they are named after, and elaborate facial features. They often have brown or reddish fur, but it can vary greatly. P. quadridens color ranges from grayish brown to yellowish brown, indicative of age or bleaching due to roost ammonia.
 *Size
-c. 3.5 in
+3-4 in (7.6-10.1 cm)
 *Echolocation?
 True
 *ENDDOC

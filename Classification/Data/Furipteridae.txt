@@ -2,7 +2,7 @@
 Northern South America (F. horrens)
 South American west coast (A. schnablii)
 *Habitat
-Rainforest, humid subtropical, grasslands, semiarid, and desert.
+These bats are found in rainforest, humid subtropical, grasslands, semiarid, and desert regions.
 *Diet
 Insectivorous
 *Social Structure
@@ -21,7 +21,7 @@ Females have an average of 1 offspring a year with a breeding season during June
 Least Concern (F. horrens)
 Endangered (A. schnablii)
 *Genera
-2 genera, monospecific
+(Monospecific)
 Furipterus horrens
 Amorphochilus schnablii
 *Appearance

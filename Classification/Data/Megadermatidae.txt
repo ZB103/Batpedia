@@ -1,28 +1,30 @@
 *Location
 South to southeast Asia, Indonesia, Philippines, central Africa, northern Australia
 *Habitat
-Tropical and subtropical.
+These bats are found in tropical and subtropical regions. Roosting occurs in caves, rock crevices, buildings, and trees.
 *Diet
-Primarily insectivorous, occasionally carnivorous, occasionally cannibalistic
-Carnivorous (Macroderma gigas)
+Insectivorous (primarily)
+Carnivorous (occasionally)
+Cannibalistic (occasionally)
+Carnivorous (M. gigas)
 *Social Structure
-Roosting occurs in caves, rock crevices, buildings, and trees, and roost in groups of 1-30. These bats "sing" to defend their foraging territory from other bats.
-Uniquely, some of these bats are monogamous. In Lyroderma lyra, the females segregate themselves after mating.
+They roost in groups of 1-30. These bats "sing" to defend their foraging territory from other bats.
 *Reproduction
+Uniquely, some of these bats are monogamous. In L. lyra, the females segregate themselves after mating.
 *Seasonal Behavior
-Short migration (Lavia frons)
+Short migration (L. frons)
 *Lifespan
 (Unavailable)
 *Predators
-Snakes, cats, owls, hawks, kestrels
+Predators include snakes, cats, owls, hawks, and kestrels.
 *Threats
 Barbed wire, mining operations, and other anthropogenic hazards threaten these bats.
 *Status
 Least Concern (LN)
-Vulnerable (VN) (Macroderma gigas)
-Critically Endangered (CR) (Eudicoderma thongareeae)
+Vulnerable (VN) (M. gigas)
+Critically Endangered (CR) (E. thongareeae)
 *Genera
-Monospecific
+(Monospecific)
 Cardioderma cor
 Eudiscoderma thongareeae
 Lavia frons
@@ -30,9 +32,9 @@ Lyroderma lyra
 Macroderma gigas
 Megaderma spasma
 *Appearance
-These are medium to large bats; brown, white, gray, green, or yellow in color; with large eyes, long erect noseleaves, and huge oval ears joined at the base by skin across the forehead. They have a large tail membrane, but a short or absent tail. Their wings tend to be short and broad.
+These are medium to large bats that are brown, white, gray, green, or yellow in color, with large eyes, long erect noseleaves, and huge oval ears joined at the base by skin across the forehead. They have a large tail membrane, but a short or absent tail. Their wings tend to be short and broad.
 *Size
 2.6-5.5 in (6.5-14 cm)
 *Echolocation?
-Passive and active, depending on the species
+Passive or active
 *ENDDOC

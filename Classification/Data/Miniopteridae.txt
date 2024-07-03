@@ -1,32 +1,32 @@
 *Location
 Mediterranean Europe, Middle East, Africa, Madagascar, Asia, Australia, Indonesia
 *Habitat
-Roost in caves and cave-like structures in tropical, subtropical, mangroves
+These bats are found in tropical, subtropical, and mangrove regions and roost in caves and cave-like structures.
 *Diet
 Insectivorous
-Piscivorous (Miniopterus inflatus +2)
+Piscivorous (M. inflatus and 2 others)
 *Social Structure
 Form colonies during hibernation (up to 110,000 individuals) or during maternity (up to 83,000 individuals). A variety of vocalizations and olfactory stimuli are used to communicate.
 *Reproduction
-Suspected polygynous with older, more dominant males having more females. Both males and females migrate to roost sites during mating season. Miniopterus australis exhibits harem mating systems.
+Suspected to be polygynous with older, more dominant males having more females. Both males and females migrate to roost sites during mating season. M. australis exhibits harem mating systems.
 *Seasonal Behavior
 Breeding migration, seasonal hibernation
 *Lifespan
 Average 17 years, max 22 years
 *Predators
-Owls, foxes, rats, cats, snakes
-Diclidurus (Miniopterus australis)
+Predators include owls, foxes, rats, cats, and snakes. M. australis are hunted by Diclidurus.
 *Threats
-Burning and cutting of cave-mouth vegetation, expansion of human population with negative view of bats
+Burning and cutting of cave-mouth vegetation threatens habitats, and expansion of human population with negative view of bats threatens populations significantly.
 *Status
 Least Concern (LC)
 Endangered (EN) to Near Threatened (NT) (5 species)
 *Genera
+(Monogeneric)
 Miniopterus
 *Appearance
-These bats are small, typically brown in color, and have broad, short muzzles and tall foreheads. Their name bent-winged bats refers to the ability to fild back a long third finger when their wingsa re folded. Unlike other bats, they lack a tendon-locking mechanism in their toes.
+These bats are small, typically brown in color, and have broad, short muzzles and tall foreheads. Their name bent-winged bats refers to the ability to fold back a long third finger when their wings are folded. Unlike other bats, they lack a tendon-locking mechanism in their toes.
 *Size
-40-78 mm
+1.6-3.1 in (4-7.8 cm)
 *Echolocation?
 True
 *ENDDOC

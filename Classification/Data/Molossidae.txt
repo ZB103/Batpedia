@@ -1,7 +1,7 @@
 *Location
-Every continent except Antarctica.
+Every continent except Antarctica
 *Habitat
-Tropical and subtropical environments; roost in caves, abandoned mines, and tunnels.
+These bats are found in tropical and subtropical environments, roosting in caves, abandoned mines, and tunnels.
 *Diet
 Insectivorous
 *Social Structure
@@ -15,7 +15,7 @@ Insectivorous
 *Predators
 (Unknown)
 *Threats
-Mining, deforestation, dams
+Mining, deforestation, and dams threaten their habitats.
 *Status
 Least Concern (LC)
 *Genera
@@ -40,9 +40,9 @@ Tadarida
 Austronomus
 Tomopeas
 *Appearance
-Small to medium bats which are usually grey, brown, or black in color, with some exeptions. Many have a distinctive pad over their noses and relatively short, broad ears. They have a tail projecting beyond the uropatagium from which they get their name. A ring of cartilage slides up and down the tail to adjust the tail membrane. They are the only bats that can withstand altitudes of over 10,000 feet. 
+These are small to medium bats which are usually grey, brown, or black in color, with some exceptions. Many have a distinctive pad over their noses and short, broad ears. They have a tail projecting beyond the uropatagium from which they get their name. A ring of cartilage slides up and down the tail to adjust the tail membrane. They are the only bats that can withstand altitudes of over 10,000 feet. 
 *Size
-4-12 cm
+1.6-4.7 in (4-12 cm)
 *Echolocation?
 True
 *ENDDOC

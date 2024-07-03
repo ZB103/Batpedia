@@ -1,7 +1,7 @@
 *Location
 Coast of Madagascar
 *Habitat
-Dry deciduous forest, evergreen rainforest. They roost right-side-up on leaves.
+These bats are found in dry deciduous forest and evergreen rainforest, roosting right-side-up on leaves.
 *Diet
 Insectivorous
 *Social Structure
@@ -13,18 +13,19 @@ Insectivorous
 *Lifespan
 (Unknown)
 *Predators
-(Unknown)
+No predators have been documented.
 *Threats
-Habitat loss, growing human population
+Habitat loss to the growing human population threatens these bats.
 *Status
 Least Concern (LC)
 *Genera
+(Monogeneric)
 Myzopoda aurita
 Myzopoda schliemanni
 *Appearance
-Medium bats, brown and gray in color, with large ears and toes with only two phalanges. They have a small thumb and vestigial claw as well as pads on their wrists and ankles after which they are named that produce an adhesive to cling to leaves. They are the only bats to sleep head-up, in order to avoid losing adhesion. It has a long tail that is used as support.
+These are medium bats, brown and gray in color, with large ears and toes with only two phalanges. They have a small thumb and vestigial claw as well as pads on their wrists and ankles after which they are named that produce an adhesive to cling to leaves. Unlike most bats, they sleep head-up in order to avoid losing adhesion. They have long tails that are used for support.
 *Size
-92-125 mm
+3.6-4.9 in (9.2-12.5 cm)
 *Echolocation?
 True
 *ENDDOC

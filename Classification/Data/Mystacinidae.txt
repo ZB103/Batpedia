@@ -1,31 +1,32 @@
 *Location
 New Zealand
 *Habitat
-Temperate broadleaf
+These bats live in temperate broadleaf environments.
 *Diet
 Omnivorous (fruit, arthropods, carrion, pollen/nectar)
 *Social Structure
 They form fission-fusion societies, roosting in trees with large internal cavities. Sizes vary, but can get up to 100,000s of individuals.
 *Reproduction
-These bats are polygynous and mate during March-May. One offspring per female is born each year, during the summer. M. tuberculata is one of two bat species to have a lek breeding system.
+One offspring per female is born each year, during the summer. They are polygynous and mate during March-May. M. tuberculata is one of two bat species to have a lek breeding system.
 *Seasonal Behavior
 Seasonal hibernation
 *Lifespan
 (Unavailable)
 *Predators
-Cats, rats, predatory birds
+Predators include cats, rats, and predatory birds.
 *Threats
-Non-native mammalian predators, agrucultural activity
+Non-native mammalian predators and agrucultural activity negatively impact populations.
 *Status
 Vulnerable (VU) (M. tuberculata)
 Critically Endangered (CE), possibly Extinct (EX) (M. robusta)
 *Genera
+(Monogeneric)
 Mystacina tuberculata
 Mystacina robusta
 *Appearance
-They spend much of their time on the ground, and have the unique ability to fold their wings into a membrane when not in use as well as unique basal talons for this purpose. They are small and have dark brown bodies and black wings.
+These bats spend much of their time on the ground, and have the unique ability to fold their wings into a membrane when not in use, as well as unique basal talons for this purpose. They are small and have dark brown bodies and black wings.
 *Size
-c. 90 mm
+c. 3.5 in (9 cm)
 *Echolocation?
 True
 *ENDDOC
