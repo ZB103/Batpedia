@@ -10,14 +10,13 @@ Disclaimer: Some of the images used in this project may be subject to copyright.
 
 
 TODO
--Plan GUI design
--Build basic GUI - buttons show text
 -Standardize buttons for unavailable information
 -Implement GUI design
 -Add photos in GUI
 
 Begun
-N/A
+-Plan GUI design
+-Build basic GUI
 
 Completed
 -Organize bat categories into classes
