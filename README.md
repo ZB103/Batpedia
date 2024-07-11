@@ -10,12 +10,13 @@ Disclaimer: Some of the images used in this project may be subject to copyright.
 
 
 TODO
+-Plan GUI design
 -Standardize buttons for unavailable information
 -Implement GUI design
 -Add photos in GUI
+-Implement accessibility features
 
 Begun
--Plan GUI design
 -Build basic GUI
 
 Completed
