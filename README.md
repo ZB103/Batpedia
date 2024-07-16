@@ -10,7 +10,6 @@ Disclaimer: Some of the images used in this project may be subject to copyright.
 
 
 TODO
--Plan GUI design
 -Standardize buttons for unavailable information
 -Implement GUI design
 -Add photos in GUI
@@ -26,3 +25,4 @@ Completed
 -Extract and display text from files using class methods
 -Consolidate classes with significant redundancy
 -Standardize structure of data
+-Plan GUI design
