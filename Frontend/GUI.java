@@ -14,8 +14,17 @@ public class GUI {
 	
 	//Color schemes
 	protected Color[] fishingBatColor = {new Color(73,63,81), new Color(96,97,101), 
-			new Color(108,190,180), new Color(163,96,94)};	//FIshing Bat (Default)
-	protected Color[][] colorSchemes = {fishingBatColor};	//List of color lists
+			new Color(108,190,180), new Color(163,96,94)};	//Fishing Bat (Default)
+	protected Color[] eveningBatColor = {new Color(73,63,81), new Color(155,38,38),
+			new Color(195,135,73), new Color(209,202,128)};	//Evening Bat
+	protected Color[] spottedBatColor = {new Color(53,51,48), new Color(224,209,193),
+			new Color(200,170,192), new Color(200,170,192)};	//Spotted Bat
+	protected Color[] falseVampBatColor = {new Color(30,8,61), new Color(144,97,164),
+			new Color(204,197,215), new Color(204,197,215)};	//False Vampire Bat
+	protected Color[] grayscaleColor = {new Color(73,73,73), new Color(132,132,132),
+			new Color(182,182,182), new Color(243,243,243)};	//Grayscale
+	protected Color[][] colorSchemes = {fishingBatColor, eveningBatColor,
+			spottedBatColor, falseVampBatColor, grayscaleColor};	//List of color lists
     
 	//Base frame creation
 	public GUI(){
