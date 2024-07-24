@@ -2,14 +2,16 @@ package Frontend;
 import java.io.*;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.image.BufferedImage;
+import javax.imageio.ImageIO;
 
 // Main class
 public class GUI {
 	//Dimensions
 	protected int frameH = 800;	//Width of the frame
 	protected int frameW = 800;	//Height of the frame
-	protected int btnW = 200;	//Width of buttons
-	protected int btnH = 50;	//Height of buttons
+	protected int btnW = 300;	//Width of buttons
+	protected int btnH = 75;	//Height of buttons
 	protected static JFrame f;	//Frame
 	
 	//Color schemes
@@ -29,13 +31,12 @@ public class GUI {
 	//Base frame creation
 	public GUI(){
 		//Creating frame
-        f = new JFrame();
+        f = new JFrame("Batpedia");
 		// ImageIcon icon = new Image("Frontend\\Images\\Asellia patrizii.jpg");
 		// frame1.setIconImage(icon);
 		f.setSize(frameW, frameH);
 		f.setLayout(null);
 		f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-		f.setName("Batpedia");
 		
 		//Default to home screen when application is started
 		homeScreen();
@@ -53,10 +54,35 @@ public class GUI {
 	private void homeScreen(){
 		//Clear frame
 		fClear();
-		//Creating default screen button
-		JButton chiropteraButton = new JButton("About Chiroptera");
-		chiropteraButton.setBounds(frameW/2 - btnW/2,frameH/4 - btnH/2,btnW, btnH);
-		chiropteraButton.setHorizontalAlignment(SwingConstants.CENTER);
-		f.add(chiropteraButton);
+		
+		//Creating proceed button
+		JButton btn = new JButton("Click here to learn about bats");
+		btn.setBounds(frameW/2 - btnW/2,frameH*6/16 - btnH/2,btnW, btnH);
+		btn.setHorizontalAlignment(SwingConstants.CENTER);
+		f.add(btn);
+		
+		//Creating title and subtitle
+		// JTextArea title = new JTextArea("Welcome to Batpedia!", 1, 1);
+		// JTextArea subtitle = new JTextArea("Designed and Programmed by ZB103", 1, 1);
+		// f.add(title);
+		// f.add(subtitle);
+		
+		//Creating logo image
+		try{
+			//Image creation
+			BufferedImage logoImage = ImageIO.read(new File("Frontend\\Images\\Logo.png"));
+			JLabel logoLabel = new JLabel(new ImageIcon(logoImage));
+			int logoW = logoImage.getWidth();
+			int logoH = logoImage.getHeight();
+			
+			//Panel creation and positioning
+			JPanel panel = new JPanel();
+			panel.setBounds(frameW/2 - logoW/2,frameH*11/16 - logoH/2,logoW,logoH);
+			panel.add(logoLabel);
+			f.add(panel);
+		
+		}catch(IOException e){}
+		
+		
 	}
 }
