@@ -32,8 +32,8 @@ public class GUI {
 	public GUI(){
 		//Creating frame
         f = new JFrame("Batpedia");
-		// ImageIcon icon = new Image("Frontend\\Images\\Asellia patrizii.jpg");
-		// frame1.setIconImage(icon);
+		ImageIcon icon = new ImageIcon("Frontend\\Images\\Logo.png");
+		f.setIconImage(icon.getImage());
 		f.setSize(frameW, frameH);
 		f.setLayout(null);
 		f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -61,11 +61,21 @@ public class GUI {
 		btn.setHorizontalAlignment(SwingConstants.CENTER);
 		f.add(btn);
 		
-		//Creating title and subtitle
-		// JTextArea title = new JTextArea("Welcome to Batpedia!", 1, 1);
-		// JTextArea subtitle = new JTextArea("Designed and Programmed by ZB103", 1, 1);
-		// f.add(title);
-		// f.add(subtitle);
+		//Creating title text
+		JLabel label = new JLabel("Welcome to Batpedia!");
+		label.setFont(label.getFont().deriveFont(40.0F));
+		label.setSize(500,50);
+		label.setHorizontalAlignment(SwingConstants.CENTER);
+		label.setLocation(frameW/2 - label.getWidth()/2, frameH/6 - label.getHeight()/2);
+		f.add(label);
+		
+		//Creating subtitle text
+		JLabel label2 = new JLabel("Designed and Programmed by ZB103");
+		label2.setFont(label2.getFont().deriveFont(15.0F));
+		label2.setSize(500,25);
+		label2.setHorizontalAlignment(SwingConstants.CENTER);
+		label2.setLocation(frameW/2 - label2.getWidth()/2, label.getY() + label.getHeight());
+		f.add(label2);
 		
 		//Creating logo image
 		try{
