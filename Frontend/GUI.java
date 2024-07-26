@@ -3,6 +3,7 @@ import java.io.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.awt.event.*;
 import javax.imageio.ImageIO;
 
 // Main class
@@ -62,20 +63,20 @@ public class GUI {
 		f.add(btn);
 		
 		//Creating title text
-		JLabel label = new JLabel("Welcome to Batpedia!");
-		label.setFont(label.getFont().deriveFont(40.0F));
-		label.setSize(500,50);
-		label.setHorizontalAlignment(SwingConstants.CENTER);
-		label.setLocation(frameW/2 - label.getWidth()/2, frameH/6 - label.getHeight()/2);
-		f.add(label);
+		JLabel title = new JLabel("Welcome to Batpedia!");
+		title.setFont(title.getFont().deriveFont(40.0F));
+		title.setSize(500,50);
+		title.setHorizontalAlignment(SwingConstants.CENTER);
+		title.setLocation(frameW/2 - title.getWidth()/2, frameH/6 - title.getHeight()/2);
+		f.add(title);
 		
 		//Creating subtitle text
-		JLabel label2 = new JLabel("Designed and Programmed by ZB103");
-		label2.setFont(label2.getFont().deriveFont(15.0F));
-		label2.setSize(500,25);
-		label2.setHorizontalAlignment(SwingConstants.CENTER);
-		label2.setLocation(frameW/2 - label2.getWidth()/2, label.getY() + label.getHeight());
-		f.add(label2);
+		JLabel subtitle = new JLabel("Designed and Programmed by ZB103");
+		subtitle.setFont(subtitle.getFont().deriveFont(15.0F));
+		subtitle.setSize(500,25);
+		subtitle.setHorizontalAlignment(SwingConstants.CENTER);
+		subtitle.setLocation(frameW/2 - subtitle.getWidth()/2, title.getY() + title.getHeight());
+		f.add(subtitle);
 		
 		//Creating logo image
 		try{
@@ -83,16 +84,35 @@ public class GUI {
 			BufferedImage logoImage = ImageIO.read(new File("Frontend\\Images\\Logo.png"));
 			JLabel logoLabel = new JLabel(new ImageIcon(logoImage));
 			int logoW = logoImage.getWidth();
-			int logoH = logoImage.getHeight();
-			
-			//Panel creation and positioning
 			JPanel panel = new JPanel();
-			panel.setBounds(frameW/2 - logoW/2,frameH*11/16 - logoH/2,logoW,logoH);
+			panel.setBounds(frameW/2 - logoImage.getWidth()/2,frameH*11/16 - logoImage.getHeight()/2,logoImage.getWidth(),logoImage.getHeight());
 			panel.add(logoLabel);
 			f.add(panel);
+			
+			//Creating settings button
+			BufferedImage gearImage = ImageIO.read(new File("Frontend\\Images\\Settings.png"));
+			JLabel gearLabel = new JLabel(new ImageIcon(gearImage));
+			JPanel sPanel = new JPanel();
+			sPanel.setSize(30,30);
+			sPanel.setLocation(0, frameH - sPanel.getHeight()*2);
+			sPanel.add(gearLabel);
+			f.add(sPanel);
 		
 		}catch(IOException e){}
 		
-		
+		//Creating copyright button
+		JLabel cr = new JLabel("<HTML><u>Copyright</u></HTML>");
+		cr.addMouseListener(new MouseListener(){
+			public void mouseReleased(MouseEvent e){cr.setText("pressed");}	//change to crScreen()
+			public void mouseClicked(MouseEvent e){cr.setText("pressed");}
+			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+			public void mouseExited(MouseEvent e){}
+			public void mousePressed(MouseEvent e){}
+		});
+		cr.setFont(cr.getFont().deriveFont(10.0F));
+		cr.setSize(50,20);
+		cr.setHorizontalAlignment(SwingConstants.CENTER);
+		cr.setLocation(frameW - cr.getWidth()*4/3, frameH - 55);
+		f.add(cr);
 	}
 }
