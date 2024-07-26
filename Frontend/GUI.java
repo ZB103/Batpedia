@@ -56,12 +56,6 @@ public class GUI {
 		//Clear frame
 		fClear();
 		
-		//Creating proceed button
-		JButton btn = new JButton("Click here to learn about bats");
-		btn.setBounds(frameW/2 - btnW/2,frameH*6/16 - btnH/2,btnW, btnH);
-		btn.setHorizontalAlignment(SwingConstants.CENTER);
-		f.add(btn);
-		
 		//Creating title text
 		JLabel title = new JLabel("Welcome to Batpedia!");
 		title.setFont(title.getFont().deriveFont(40.0F));
@@ -78,9 +72,21 @@ public class GUI {
 		subtitle.setLocation(frameW/2 - subtitle.getWidth()/2, title.getY() + title.getHeight());
 		f.add(subtitle);
 		
-		//Creating logo image
+		//Creating proceed button
+		JButton btn = new JButton("Click here to learn about bats");
+		btn.setBounds(frameW/2 - btnW/2,frameH*6/16 - btnH/2,btnW, btnH);
+		btn.setHorizontalAlignment(SwingConstants.CENTER);
+		btn.addMouseListener(new MouseListener(){
+			public void mouseReleased(MouseEvent e){title.setText("button");}	//change to crScreen()
+			public void mouseClicked(MouseEvent e){title.setText("button");}
+			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+			public void mouseExited(MouseEvent e){}
+			public void mousePressed(MouseEvent e){}
+		});
+		f.add(btn);
+		
 		try{
-			//Image creation
+			//Creating logo image
 			BufferedImage logoImage = ImageIO.read(new File("Frontend\\Images\\Logo.png"));
 			JLabel logoLabel = new JLabel(new ImageIcon(logoImage));
 			int logoW = logoImage.getWidth();
@@ -96,23 +102,30 @@ public class GUI {
 			sPanel.setSize(30,30);
 			sPanel.setLocation(0, frameH - sPanel.getHeight()*2);
 			sPanel.add(gearLabel);
+			sPanel.addMouseListener(new MouseListener(){
+			public void mouseReleased(MouseEvent e){title.setText("settings");}	//change to crScreen()
+			public void mouseClicked(MouseEvent e){title.setText("settings");}
+			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+			public void mouseExited(MouseEvent e){}
+			public void mousePressed(MouseEvent e){}
+			});
 			f.add(sPanel);
 		
 		}catch(IOException e){}
 		
 		//Creating copyright button
 		JLabel cr = new JLabel("<HTML><u>Copyright</u></HTML>");
-		cr.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){cr.setText("pressed");}	//change to crScreen()
-			public void mouseClicked(MouseEvent e){cr.setText("pressed");}
-			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
-			public void mouseExited(MouseEvent e){}
-			public void mousePressed(MouseEvent e){}
-		});
 		cr.setFont(cr.getFont().deriveFont(10.0F));
 		cr.setSize(50,20);
 		cr.setHorizontalAlignment(SwingConstants.CENTER);
 		cr.setLocation(frameW - cr.getWidth()*4/3, frameH - 55);
+		cr.addMouseListener(new MouseListener(){
+			public void mouseReleased(MouseEvent e){title.setText("pressed");}	//change to crScreen()
+			public void mouseClicked(MouseEvent e){title.setText("pressed");}
+			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+			public void mouseExited(MouseEvent e){}
+			public void mousePressed(MouseEvent e){}
+		});
 		f.add(cr);
 	}
 }
