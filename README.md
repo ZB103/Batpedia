@@ -12,6 +12,7 @@ Disclaimer: Some of the images used in this project may be subject to copyright.
 TODO
 -Standardize buttons for unavailable information
 -Implement GUI design
+-Export colors to txt document
 -Add photos in GUI
 -Implement accessibility features
 

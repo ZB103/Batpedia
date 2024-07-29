@@ -40,7 +40,8 @@ public class GUI {
 		f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		
 		//Default to home screen when application is started
-		homeScreen();
+		//homeScreen();
+		settingsScreen();
 		//Make frame visible
 		f.setVisible(true);
     }
@@ -75,6 +76,7 @@ public class GUI {
 		//Creating proceed button
 		JButton btn = new JButton("Click here to learn about bats");
 		btn.setBounds(frameW/2 - btnW/2,frameH*6/16 - btnH/2,btnW, btnH);
+		btn.setFont(title.getFont().deriveFont(18.0F));
 		btn.setHorizontalAlignment(SwingConstants.CENTER);
 		btn.addMouseListener(new MouseListener(){
 			public void mouseReleased(MouseEvent e){title.setText("button");}	//change to crScreen()
@@ -103,11 +105,11 @@ public class GUI {
 			sPanel.setLocation(0, frameH - sPanel.getHeight()*2);
 			sPanel.add(gearLabel);
 			sPanel.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){title.setText("settings");}	//change to crScreen()
-			public void mouseClicked(MouseEvent e){title.setText("settings");}
-			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
-			public void mouseExited(MouseEvent e){}
-			public void mousePressed(MouseEvent e){}
+				public void mouseReleased(MouseEvent e){title.setText("settings");}	//change to crScreen()
+				public void mouseClicked(MouseEvent e){title.setText("settings");}
+				public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+				public void mouseExited(MouseEvent e){}
+				public void mousePressed(MouseEvent e){}
 			});
 			f.add(sPanel);
 		
@@ -127,5 +129,129 @@ public class GUI {
 			public void mousePressed(MouseEvent e){}
 		});
 		f.add(cr);
+	}
+
+	//Display settings screen
+	private void settingsScreen(){
+		//Clear frame
+		fClear();
+		
+		//Create back button/s
+		addBackButtons();
+		
+		//Creating title text
+		JLabel title = new JLabel("Display Settings");
+		title.setFont(title.getFont().deriveFont(40.0F));
+		title.setSize(500,50);
+		title.setHorizontalAlignment(SwingConstants.CENTER);
+		title.setLocation(frameW/2 - title.getWidth()/2, frameH/12 - title.getHeight()/2);
+		f.add(title);
+		
+		//Text variables
+		Font font = title.getFont().deriveFont(25.0F);
+		int textX = frameW/3 - btnW/2;
+	
+		//Display 1x1 - Color Theme
+		JLabel themeText = new JLabel("Color Theme");
+		themeText.setFont(font);
+		themeText.setBounds(textX, frameH/6 + btnH/2, btnW, btnH);
+		themeText.setHorizontalAlignment(SwingConstants.CENTER);
+		f.add(themeText);
+		
+		/*
+		Display 1x2 - Color Theme Drop-down Menu
+		Options:
+		Fishing Bat (Default) - cool
+		Evening Bat - warm
+		Spotted Bat - muted
+		False Vampire Bat - silver
+		*/
+		
+		
+		//Display 2x1 - Color Filter
+		JLabel filText = new JLabel("Color Filter");
+		filText.setFont(font);
+		filText.setBounds(textX, frameH/3 + btnH/2, btnW, btnH);
+		filText.setHorizontalAlignment(SwingConstants.CENTER);
+		f.add(filText);
+		
+		/*
+		Display 2x2 - Color Filter Drop-down Menu
+		Options:
+		None (Default)
+		Monochrome
+		Tritanopia
+		Deuteranopia
+		Protanopia
+		*/
+		
+		
+		//Display 3x1 - Text Size
+		JLabel sizeText = new JLabel("Text Size");
+		sizeText.setFont(font);
+		sizeText.setBounds(textX, frameH/2 + btnH/2, btnW, btnH);
+		sizeText.setHorizontalAlignment(SwingConstants.CENTER);
+		f.add(sizeText);
+		
+		/*
+		Display 3x2 - Text Size Drop-Down Menu
+		50%
+		75%
+		100% (Default)
+		125%
+		150%
+		*/
+		
+		
+		//Display 4x1 - Narration
+		JLabel narrText = new JLabel("Narration");
+		narrText.setFont(font);
+		narrText.setBounds(textX, frameH*2/3 + btnH/2, btnW, btnH);
+		narrText.setHorizontalAlignment(SwingConstants.CENTER);
+		f.add(narrText);
+		
+		/*
+		Display 4x2 - Narration Drop-Down Menu
+		Off (Default)
+		On Click
+		On Hover
+		*/
+	}
+	
+	//Add back buttons to frame
+	private void addBackButtons(){
+		try{
+			//home
+			BufferedImage homeImage = ImageIO.read(new File("Frontend\\Images\\Home.png"));
+			JLabel homeBtn = new JLabel(new ImageIcon(homeImage));
+			JPanel hPanel = new JPanel();
+			hPanel.setSize(30,30);
+			hPanel.setLocation(0,0);
+			hPanel.add(homeBtn);
+			hPanel.addMouseListener(new MouseListener(){
+				public void mouseReleased(MouseEvent e){homeScreen();}	//change to last screen
+				public void mouseClicked(MouseEvent e){}
+				public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+				public void mouseExited(MouseEvent e){}
+				public void mousePressed(MouseEvent e){}
+			});
+			f.add(hPanel);
+			
+			//back
+			BufferedImage backArrowImage = ImageIO.read(new File("Frontend\\Images\\Back.png"));
+			JLabel backBtn = new JLabel(new ImageIcon(backArrowImage));
+			JPanel bPanel = new JPanel();
+			bPanel.setSize(30,30);
+			bPanel.setLocation(hPanel.getWidth(), 0);
+			bPanel.add(backBtn);
+			bPanel.addMouseListener(new MouseListener(){
+				public void mouseReleased(MouseEvent e){homeScreen();}	//change to home screen
+				public void mouseClicked(MouseEvent e){}
+				public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+				public void mouseExited(MouseEvent e){}
+				public void mousePressed(MouseEvent e){}
+			});
+			f.add(bPanel);
+		}catch(IOException e){}
 	}
 }
