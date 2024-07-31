@@ -166,7 +166,21 @@ public class GUI {
 		Spotted Bat - muted
 		False Vampire Bat - silver
 		*/
+		String[] themeStrings = {"Fishing Bat", "Evening Bat", "Spotted Bat", "False Vampire Bat"};
+		JComboBox themeList = new JComboBox(themeStrings);
+		themeList.setSelectedIndex(0);
+		themeList.addMouseListener(new MouseListener(){
+			public void mouseReleased(MouseEvent e){title.setText("pressed" + themeList.getSelectedIndex());}
+			public void mouseClicked(MouseEvent e){title.setText("pressed" + themeList.getSelectedIndex());}
+			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+			public void mouseExited(MouseEvent e){}
+			public void mousePressed(MouseEvent e){}
+		});
 		
+		JPanel themeMenu = new JPanel();
+		themeMenu.add(themeList);
+		themeMenu.setBounds(textX*2, themeText.getY(), btnW, btnH);
+		f.add(themeMenu);
 		
 		//Display 2x1 - Color Filter
 		JLabel filText = new JLabel("Color Filter");
