@@ -105,8 +105,8 @@ public class GUI {
 			sPanel.setLocation(0, frameH - sPanel.getHeight()*2);
 			sPanel.add(gearLabel);
 			sPanel.addMouseListener(new MouseListener(){
-				public void mouseReleased(MouseEvent e){title.setText("settings");}	//change to crScreen()
-				public void mouseClicked(MouseEvent e){title.setText("settings");}
+				public void mouseReleased(MouseEvent e){settingsScreen();}
+				public void mouseClicked(MouseEvent e){settingsScreen();}
 				public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 				public void mouseExited(MouseEvent e){}
 				public void mousePressed(MouseEvent e){}
@@ -169,17 +169,14 @@ public class GUI {
 		String[] themeStrings = {"Fishing Bat", "Evening Bat", "Spotted Bat", "False Vampire Bat"};
 		JComboBox themeList = new JComboBox(themeStrings);
 		themeList.setSelectedIndex(0);
-		themeList.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){title.setText("pressed" + themeList.getSelectedIndex());}
-			public void mouseClicked(MouseEvent e){title.setText("pressed" + themeList.getSelectedIndex());}
-			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
-			public void mouseExited(MouseEvent e){}
-			public void mousePressed(MouseEvent e){}
+		themeList.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e){
+				themeText.setText(themeStrings[themeList.getSelectedIndex()]);
+			}
 		});
-		
 		JPanel themeMenu = new JPanel();
 		themeMenu.add(themeList);
-		themeMenu.setBounds(textX*2, themeText.getY(), btnW, btnH);
+		themeMenu.setBounds(themeText.getX()*3, themeText.getY() + btnH/4, btnW, btnH);
 		f.add(themeMenu);
 		
 		//Display 2x1 - Color Filter
@@ -198,12 +195,24 @@ public class GUI {
 		Deuteranopia
 		Protanopia
 		*/
+		String[] filStrings = {"None", "Monochrome", "Tritanopia", "Deuteranopia", "Protanopia"};
+		JComboBox filList = new JComboBox(filStrings);
+		filList.setSelectedIndex(0);
+		filList.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e){
+				filText.setText(filStrings[filList.getSelectedIndex()]);
+			}
+		});
 		
+		JPanel filMenu = new JPanel();
+		filMenu.add(filList);
+		filMenu.setBounds(filText.getX()*3, filText.getY() + btnH/4, btnW, btnH);
+		f.add(filMenu);
 		
 		//Display 3x1 - Text Size
 		JLabel sizeText = new JLabel("Text Size");
 		sizeText.setFont(font);
-		sizeText.setBounds(textX, frameH/2 + btnH/2, btnW, btnH);
+		sizeText.setBounds(textX, frameH*3/6 + btnH/2, btnW, btnH);
 		sizeText.setHorizontalAlignment(SwingConstants.CENTER);
 		f.add(sizeText);
 		
@@ -215,7 +224,19 @@ public class GUI {
 		125%
 		150%
 		*/
+		String[] sizeStrings = {"50%", "75%", "100%", "125%", "150%"};
+		JComboBox sizeList = new JComboBox(sizeStrings);
+		sizeList.setSelectedIndex(2);
+		sizeList.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e){
+				sizeText.setText(sizeStrings[sizeList.getSelectedIndex()]);
+			}
+		});
 		
+		JPanel sizeMenu = new JPanel();
+		sizeMenu.add(sizeList);
+		sizeMenu.setBounds(sizeText.getX()*3, sizeText.getY() + btnH/4, btnW, btnH);
+		f.add(sizeMenu);
 		
 		//Display 4x1 - Narration
 		JLabel narrText = new JLabel("Narration");
@@ -230,6 +251,19 @@ public class GUI {
 		On Click
 		On Hover
 		*/
+		String[] narrStrings = {"Off", "On Click", "On Hover"};
+		JComboBox narrList = new JComboBox(narrStrings);
+		narrList.setSelectedIndex(0);
+		narrList.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e){
+				narrText.setText(narrStrings[narrList.getSelectedIndex()]);
+			}
+		});
+		
+		JPanel narrMenu = new JPanel();
+		narrMenu.add(narrList);
+		narrMenu.setBounds(narrText.getX()*3, narrText.getY() + btnH/4, btnW, btnH);
+		f.add(narrMenu);
 	}
 	
 	//Add back buttons to frame
