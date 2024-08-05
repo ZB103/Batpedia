@@ -41,7 +41,8 @@ public class GUI {
 		
 		//Default to home screen when application is started
 		//homeScreen();
-		settingsScreen();
+		//settingsScreen();
+		crScreen();
 		//Make frame visible
 		f.setVisible(true);
     }
@@ -122,8 +123,8 @@ public class GUI {
 		cr.setHorizontalAlignment(SwingConstants.CENTER);
 		cr.setLocation(frameW - cr.getWidth()*4/3, frameH - 55);
 		cr.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){title.setText("pressed");}	//change to crScreen()
-			public void mouseClicked(MouseEvent e){title.setText("pressed");}
+			public void mouseReleased(MouseEvent e){crScreen();}
+			public void mouseClicked(MouseEvent e){crScreen();}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
 			public void mousePressed(MouseEvent e){}
@@ -302,4 +303,52 @@ public class GUI {
 			f.add(bPanel);
 		}catch(IOException e){}
 	}
+
+	//Display copyright disclaimer screen
+	private void crScreen(){
+		//Clear frame
+		fClear();
+		
+		//Creating title
+		JLabel title = new JLabel("Copyright disclaimer:");
+		title.setFont(title.getFont().deriveFont(40.0F));
+		title.setSize(500,50);
+		title.setHorizontalAlignment(SwingConstants.CENTER);
+		title.setLocation(frameW/2 - title.getWidth()/2, frameH/12 - title.getHeight()/2);
+		f.add(title);
+		
+		try{
+			//Creating cr disclaimer box
+			//Getting data from file
+			File file = new File("Classification\\Data\\cr.txt");
+			FileReader fr = new FileReader(file);
+			BufferedReader br = new BufferedReader(fr);
+			String crText = br.readLine();
+			//Creating box
+			JTextArea crBox = new JTextArea(crText);	//add border	//add center alignment
+			crBox.setSize(600,350);
+			crBox.setLocation(frameW/2 - crBox.getWidth()/2, frameH/3 - crBox.getHeight()/2 + 20);
+			crBox.setLineWrap(true);
+			crBox.setWrapStyleWord(true);
+			crBox.setEditable(false);
+			crBox.setFont(crBox.getFont().deriveFont(20.0F));
+			f.add(crBox);
+			
+			br.close();
+			fr.close();
+			
+			//Creating logo image
+			BufferedImage logoImage = ImageIO.read(new File("Frontend\\Images\\LogoCR.png"));
+			JLabel logoLabel = new JLabel(new ImageIcon(logoImage));
+			int logoW = logoImage.getWidth();
+			JPanel panel = new JPanel();
+			panel.setBounds(frameW/2 - logoImage.getWidth()/2,frameH*3/4 - logoImage.getHeight()/2,logoImage.getWidth(),logoImage.getHeight());
+			panel.add(logoLabel);
+			f.add(panel);
+		}catch(IOException e){}
+		
+		//add buttons
+		addBackButtons();
+	}
+
 }
