@@ -1,4 +1,5 @@
 package Frontend;
+import Classification.*;
 import java.io.*;
 import javax.swing.*;
 import java.awt.*;
@@ -367,10 +368,111 @@ public class GUI {
 		f.add(title);
 		
 		//Creating Yin button
-		
+		JButton yiBtn = new JButton("Yinpterochiroptera");
+		yiBtn.setSize(btnW*2/3, btnH);
+		yiBtn.setLocation(frameW*1/3 - yiBtn.getWidth()/2, frameH*2/12);
+		yiBtn.setFont(yiBtn.getFont().deriveFont(18.0F));
+		yiBtn.setHorizontalAlignment(SwingConstants.CENTER);
+		yiBtn.addMouseListener(new MouseListener(){
+			public void mouseReleased(MouseEvent e){title.setText("Yin");}
+			public void mouseClicked(MouseEvent e){title.setText("Yin");}
+			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+			public void mouseExited(MouseEvent e){}
+			public void mousePressed(MouseEvent e){}
+		});
+		f.add(yiBtn);
 		
 		//Creating Yango button
+		JButton yaBtn = new JButton("Yangochiroptera");
+		yaBtn.setSize(btnW*2/3, btnH);
+		yaBtn.setLocation(frameW*2/3 - yaBtn.getWidth()/2, frameH*2/12);
+		yaBtn.setFont(yaBtn.getFont().deriveFont(18.0F));
+		yaBtn.setHorizontalAlignment(SwingConstants.CENTER);
+		yaBtn.addMouseListener(new MouseListener(){
+			public void mouseReleased(MouseEvent e){title.setText("Yango");}
+			public void mouseClicked(MouseEvent e){title.setText("Yango");}
+			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+			public void mouseExited(MouseEvent e){}
+			public void mousePressed(MouseEvent e){}
+		});
+		f.add(yaBtn);
 		
+		//Creating horizontal line
+		JSeparator line = new JSeparator(SwingConstants.HORIZONTAL);
+		line.setSize(frameW*7/8, 50);
+		line.setLocation(frameW/2 - line.getWidth()/2,frameH*4/12 - line.getHeight()/2);
+		f.add(line);
+		
+		//Creating information text box
+		JTextArea infoBox = new JTextArea();
+		infoBox.setSize(600,350);
+		infoBox.setLocation(frameW/2 - infoBox.getWidth()/2, frameH*8/12 - infoBox.getHeight()/2);
+		infoBox.setLineWrap(true);
+		infoBox.setWrapStyleWord(true);
+		infoBox.setEditable(false);
+		infoBox.setFont(infoBox.getFont().deriveFont(20.0F));
+		// infoBox.setAlignmentX(Component.CENTER_ALIGNMENT);
+		// infoBox.setAlignmentY(Component.CENTER_ALIGNMENT);
+		f.add(infoBox);
+		
+		//Creating info buttons
+		//Future optimization: button creation loop
+		// String currentLabel = Chiroptera.getData("order");
+		// int btnX = 50;
+		// while(currentLabel != "*ENDDOC"){
+			// JButton button = new JButton();
+		// }
+		
+		//Order button: sets text box alignment to left
+		//and displays order data from file Chiroptera
+		JButton btn1 = new JButton("Order");
+		btn1.setSize(yiBtn.getWidth()*3/4, yiBtn.getHeight()*3/4);
+		btn1.setLocation(frameW/2 - btn1.getWidth()*3/2, frameH/3);
+		btn1.setFont(btn1.getFont().deriveFont(20.0F));
+		btn1.addMouseListener(new MouseListener(){
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(Chiroptera.getData("order"));}catch(IOException f){}}
+			public void mouseClicked(MouseEvent e){try{infoBox.setText(Chiroptera.getData("order"));}catch(IOException f){}}
+			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+			public void mouseExited(MouseEvent e){}
+			public void mousePressed(MouseEvent e){}
+		});
+		f.add(btn1);
+		
+		//Frequency button: sets text box alignment to center
+		//and displays frequency data from file Chiroptera
+		JButton btn2 = new JButton("Frequency");
+		btn2.setSize(btn1.getWidth(), btn1.getHeight());
+		btn2.setLocation(btn1.getX() + btn1.getWidth(), btn1.getY());
+		btn2.setFont(btn2.getFont().deriveFont(20.0F));
+		btn2.addMouseListener(new MouseListener(){
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(Chiroptera.getData("frequency"));}catch(IOException f){}}
+			public void mouseClicked(MouseEvent e){try{infoBox.setText(Chiroptera.getData("frequency"));}catch(IOException f){}}
+			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+			public void mouseExited(MouseEvent e){}
+			public void mousePressed(MouseEvent e){}
+		});
+		f.add(btn2);
+		
+		//Diversity button: sets text box alignment to right
+		//and displays diversity data from file Chiroptera
+		JButton btn3 = new JButton("Diversity");
+		btn3.setSize(btn1.getWidth(), btn1.getHeight());
+		btn3.setLocation(btn2.getX() + btn2.getWidth(), btn1.getY());
+		btn3.setFont(btn3.getFont().deriveFont(20.0F));
+		btn3.addMouseListener(new MouseListener(){
+			public void mouseReleased(MouseEvent e){
+				try{infoBox.setText(Chiroptera.getData("diversity"));}catch(IOException f){}
+				infoBox.setAlignmentY(SwingConstants.RIGHT);
+				}
+			public void mouseClicked(MouseEvent e){
+				try{infoBox.setText(Chiroptera.getData("diversity"));}catch(IOException f){}
+				infoBox.setAlignmentY(SwingConstants.RIGHT);
+				}
+			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
+			public void mouseExited(MouseEvent e){}
+			public void mousePressed(MouseEvent e){}
+		});
+		f.add(btn3);
 		
 		//Add home and back buttons
 		addBackButtons();

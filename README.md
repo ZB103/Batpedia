@@ -19,7 +19,7 @@ TODO
 -Finalize logo and implement animation easter egg
 
 Begun
--Build basic GUI - Order
+
 
 Completed
 -Organize bat categories into classes
@@ -32,3 +32,4 @@ Completed
 -Build basic GUI - Home
 -Build basic GUI - Copyright
 -Build basic GUI - Settings
+-Build basic GUI - Order

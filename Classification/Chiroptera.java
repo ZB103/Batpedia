@@ -38,7 +38,7 @@ public class Chiroptera{
 	
 	//Retrieve data from text file
 	//Mediator function
-	public String getData(String requestedData) throws IOException{
+	public static String getData(String requestedData) throws IOException{
 		String finalString = "";
 		//Initialize classes
 		File file = new File("Classification\\Data\\Chiroptera.txt");
@@ -64,7 +64,7 @@ public class Chiroptera{
 	}
 	
 	//Displays data on the order
-	private String displayOrderData(String fullString){
+	private static String displayOrderData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Order") + 6,
 			fullString.indexOf("*Frequency"));
@@ -73,7 +73,7 @@ public class Chiroptera{
 	}
 	
 	//Displays data on the frequency of bats
-	private String displayFrequencyData(String fullString){
+	private static String displayFrequencyData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Frequency") + 10,
 			fullString.indexOf("*Diversity"));
@@ -82,7 +82,7 @@ public class Chiroptera{
 	}
 	
 	//Displays data on overview of diversity of bats
-	private String displayDiversityData(String fullString){
+	private static String displayDiversityData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Diversity") + 10,
 			fullString.indexOf("*ENDDOC"));
