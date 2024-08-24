@@ -42,7 +42,8 @@ public class GUI {
 		//Default to home screen when application is started
 		//homeScreen();
 		//settingsScreen();
-		crScreen();
+		//crScreen();
+		orderScreen();
 		//Make frame visible
 		f.setVisible(true);
     }
@@ -51,6 +52,7 @@ public class GUI {
 	private void fClear(){
 		f.getContentPane().removeAll();
 		f.repaint();
+		SwingUtilities.updateComponentTreeUI(f);
 	}
 	
 	//Display home screen
@@ -80,8 +82,8 @@ public class GUI {
 		btn.setFont(title.getFont().deriveFont(18.0F));
 		btn.setHorizontalAlignment(SwingConstants.CENTER);
 		btn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){title.setText("button");}	//change to crScreen()
-			public void mouseClicked(MouseEvent e){title.setText("button");}
+			public void mouseReleased(MouseEvent e){orderScreen();}
+			public void mouseClicked(MouseEvent e){orderScreen();}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
 			public void mousePressed(MouseEvent e){}
@@ -137,9 +139,6 @@ public class GUI {
 		//Clear frame
 		fClear();
 		
-		//Create back button/s
-		addBackButtons();
-		
 		//Creating title text
 		JLabel title = new JLabel("Display Settings");
 		title.setFont(title.getFont().deriveFont(40.0F));
@@ -168,7 +167,7 @@ public class GUI {
 		False Vampire Bat - silver
 		*/
 		String[] themeStrings = {"Fishing Bat", "Evening Bat", "Spotted Bat", "False Vampire Bat"};
-		JComboBox themeList = new JComboBox(themeStrings);
+		JComboBox<String> themeList = new JComboBox<>(themeStrings);
 		themeList.setSelectedIndex(0);
 		themeList.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
@@ -197,7 +196,7 @@ public class GUI {
 		Protanopia
 		*/
 		String[] filStrings = {"None", "Monochrome", "Tritanopia", "Deuteranopia", "Protanopia"};
-		JComboBox filList = new JComboBox(filStrings);
+		JComboBox<String> filList = new JComboBox<>(filStrings);
 		filList.setSelectedIndex(0);
 		filList.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
@@ -226,7 +225,7 @@ public class GUI {
 		150%
 		*/
 		String[] sizeStrings = {"50%", "75%", "100%", "125%", "150%"};
-		JComboBox sizeList = new JComboBox(sizeStrings);
+		JComboBox<String> sizeList = new JComboBox<>(sizeStrings);
 		sizeList.setSelectedIndex(2);
 		sizeList.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
@@ -253,7 +252,7 @@ public class GUI {
 		On Hover
 		*/
 		String[] narrStrings = {"Off", "On Click", "On Hover"};
-		JComboBox narrList = new JComboBox(narrStrings);
+		JComboBox<String> narrList = new JComboBox<>(narrStrings);
 		narrList.setSelectedIndex(0);
 		narrList.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
@@ -265,6 +264,9 @@ public class GUI {
 		narrMenu.add(narrList);
 		narrMenu.setBounds(narrText.getX()*3, narrText.getY() + btnH/4, btnW, btnH);
 		f.add(narrMenu);
+		
+		//Create back button/s
+		addBackButtons();
 	}
 	
 	//Add back buttons to frame
@@ -351,4 +353,26 @@ public class GUI {
 		addBackButtons();
 	}
 
+	//Display order screen (Chiroptera)
+	private void orderScreen(){
+		//Clear frame
+		fClear();
+		
+		//Creating title text
+		JLabel title = new JLabel("Bats - Order Chiroptera");
+		title.setFont(title.getFont().deriveFont(40.0F));
+		title.setSize(500, 50);
+		title.setHorizontalAlignment(SwingConstants.CENTER);
+		title.setLocation(frameW/2 - title.getWidth()/2, frameH/12 - title.getHeight()/2);
+		f.add(title);
+		
+		//Creating Yin button
+		
+		
+		//Creating Yango button
+		
+		
+		//Add home and back buttons
+		addBackButtons();
+	}
 }
