@@ -10,16 +10,16 @@ Disclaimer: Some of the images used in this project may be subject to copyright.
 
 
 TODO
--Build basic GUI - Suborder
 -Standardize buttons for unavailable information
 -Add photos in GUI
 -Implement GUI design
+-Optimize and simplify code
 -Export colors to txt document
 -Implement accessibility features
 -Finalize logo and implement animation easter egg
 
 Begun
-
+-Build basic GUI - Suborder
 
 Completed
 -Organize bat categories into classes

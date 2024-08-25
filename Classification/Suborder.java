@@ -50,7 +50,7 @@ public class Suborder extends Chiroptera{
 	
 	//Retrieve data from text file
 	//Mediator function
-	public static String getData(String requestedData) throws IOException{
+	public String getData(String requestedData) throws IOException{
 		String finalString = "";
 		//Initialize classes
 		File file = new File(filepath);
@@ -74,7 +74,7 @@ public class Suborder extends Chiroptera{
 	}
 	
 	//Displays data on the suborder
-	private static String displayOrderData(String fullString){
+	private String displayOrderData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Suborder") + 10,
 			fullString.indexOf("*ENDDOC"));

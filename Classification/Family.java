@@ -54,7 +54,7 @@ public class Family extends Suborder{
 	
 	//Retrieve data from text file
 	//Mediator function
-	public static String getData(String requestedData) throws IOException{
+	public String getData(String requestedData) throws IOException{
 		String finalString = "";
 		//Initialize classes
 		File file = new File(filepath);
@@ -91,7 +91,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's location
-	private static String displayLocationData(String fullString){
+	private String displayLocationData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Location") + 10,
 			fullString.indexOf("*Habitat"));
@@ -100,7 +100,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's habitat
-	private static String displayHabitatData(String fullString){
+	private String displayHabitatData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Habitat") + 9,
 			fullString.indexOf("*Diet"));
@@ -109,7 +109,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's diet
-	private static String displayDietData(String fullString){
+	private String displayDietData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Diet") + 6,
 			fullString.indexOf("*Social Structure"));
@@ -118,7 +118,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's social structure
-	private static String displaySocialData(String fullString){
+	private String displaySocialData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Social Structure") + 18,
 			fullString.indexOf("*Reproduction"));
@@ -127,7 +127,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's reproduction
-	private static String displayReproduceData(String fullString){
+	private String displayReproduceData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Reproduction") + 14,
 			fullString.indexOf("*Seasonal Behavior"));
@@ -136,7 +136,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's seasonal behavior
-	private static String displaySeasonalData(String fullString){
+	private String displaySeasonalData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Seasonal Behavior") + 19,
 			fullString.indexOf("*Lifespan"));
@@ -145,7 +145,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's lifespan
-	private static String displayLifespanData(String fullString){
+	private String displayLifespanData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Lifespan") + 10,
 			fullString.indexOf("*Predators"));
@@ -154,7 +154,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's predators
-	private static String displayPredatorData(String fullString){
+	private String displayPredatorData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Predators") + 11,
 			fullString.indexOf("*Threats"));
@@ -163,7 +163,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's threats
-	private static String displayThreatData(String fullString){
+	private String displayThreatData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Threats") + 9,
 			fullString.indexOf("*Status"));
@@ -172,7 +172,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's status
-	private static String displayStatusData(String fullString){
+	private String displayStatusData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Status") + 8,
 			fullString.indexOf("*Genera"));
@@ -181,7 +181,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's genera
-	private static String displayGeneraData(String fullString){
+	private String displayGeneraData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Genera") + 8,
 			fullString.indexOf("*Appearance"));
@@ -190,7 +190,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's appearance
-	private static String displayAppearanceData(String fullString){
+	private String displayAppearanceData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Appearance") + 12,
 			fullString.indexOf("*Size"));
@@ -199,7 +199,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's size
-	private static String displaySizeData(String fullString){
+	private String displaySizeData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Size") + 6,
 			fullString.indexOf("*Echolocation"));
@@ -208,7 +208,7 @@ public class Family extends Suborder{
 	}
 	
 	//Displays data on the family's echolocation
-	private static String displayEchoData(String fullString){
+	private String displayEchoData(String fullString){
 		//Extract substring of needed data
 		String finalString = fullString.substring(fullString.indexOf("*Echolocation?") + 15,
 			fullString.indexOf("*ENDDOC"));
