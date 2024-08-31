@@ -73,10 +73,7 @@ public class GUI {
 		f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		
 		//Default to home screen when application is started
-		//homeScreen();
-		//settingsScreen();
-		//crScreen();
-		orderScreen();
+		homeScreen();
 		//Make frame visible
 		f.setVisible(true);
     }
@@ -528,7 +525,7 @@ public class GUI {
 		//Creating information text box
 		JTextArea infoBox = new JTextArea();
 		infoBox.setSize(400,350);
-		infoBox.setLocation(frameW*8/12 - infoBox.getWidth()/2, frameH*8/12 - infoBox.getHeight()/2);
+		infoBox.setLocation(frameW*17/24 - infoBox.getWidth()/2, frameH*8/12 - infoBox.getHeight()/2);
 		infoBox.setLineWrap(true);
 		infoBox.setWrapStyleWord(true);
 		infoBox.setEditable(false);
@@ -537,16 +534,16 @@ public class GUI {
 		// infoBox.setAlignmentY(Component.CENTER_ALIGNMENT);
 		f.add(infoBox);
 		
-		//Creating picture box
-		// try(
-			// BufferedImage batImage = ImageIO.read(new File("Frontend\\Images\\TempImage.png"));
-			// JLabel batLabel = new JLabel(new ImageIcon(batImage));
-			// JPanel panel = new JPanel();
-			// panel.setSize(batImage.getWidth(), batImage.getHeight());
-			// panel.setLocation(frameW*4/12 - batImage.getWidth()/2, frameH*8/12 - batImage.getHeight()/2);
-			// panel.add(batLabel);
-			// f.add(panel);
-		// }catch(IOException e){}
+		// Creating picture box
+		try{
+			BufferedImage batImage = ImageIO.read(new File("Frontend\\Images\\TempImage.png"));
+			JLabel batLabel = new JLabel(new ImageIcon(batImage));
+			JPanel panel = new JPanel();
+			panel.setSize(batImage.getWidth(), batImage.getHeight());
+			panel.setLocation(frameW*5/24 - batImage.getWidth()/2, frameH*8/12 - batImage.getHeight()/2);
+			panel.add(batLabel);
+			f.add(panel);
+		}catch(IOException e){}
 		
 		//Calling helper function for buttons
 		if(suborderString.equalsIgnoreCase("yinpterochiroptera")){yinButtons(infoBox);}
