@@ -1367,27 +1367,27 @@ public class GUI {
 		
 		//Creating forward and back arrows - bottom row
 		//right arrow - seek
-		JButton rArrow = new JButton(">");
+		JButton rArrowLower = new JButton(">");
 		//left arrow - back
-		JButton lArrow = new JButton("<");
+		JButton lArrowLower = new JButton("<");
 		
-		rArrow.setSize(loBtn.getWidth()/3, loBtn.getHeight());
-		rArrow.setLocation(ssBtn.getX() + ssBtn.getWidth(), ssBtn.getY());
-		rArrow.setFont(rArrow.getFont().deriveFont(10.0F));
-		rArrow.addMouseListener(new MouseListener(){
+		rArrowLower.setSize(loBtn.getWidth()/3, loBtn.getHeight());
+		rArrowLower.setLocation(ssBtn.getX() + ssBtn.getWidth(), ssBtn.getY());
+		rArrowLower.setFont(rArrowLower.getFont().deriveFont(10.0F));
+		rArrowLower.addMouseListener(new MouseListener(){
 			public void mouseReleased(MouseEvent e){
 				//Increment page number
 				curPageLower++;
 				//Show/hide arrows based on page number
 				if(curPageLower == 4){
-					rArrow.setVisible(false);
-					lArrow.setVisible(true);
+					rArrowLower.setVisible(false);
+					lArrowLower.setVisible(true);
 				}else if(curPageLower > 1 && curPageLower < 4){
-					rArrow.setVisible(true);
-					lArrow.setVisible(true);
+					rArrowLower.setVisible(true);
+					lArrowLower.setVisible(true);
 				}else if(curPageLower == 1){
-					rArrow.setVisible(false);
-					lArrow.setVisible(true);
+					rArrowLower.setVisible(false);
+					lArrowLower.setVisible(true);
 				}else{
 					System.out.println("ERR: current page index: arrows");
 				}
@@ -1451,29 +1451,29 @@ public class GUI {
 			public void mouseExited(MouseEvent e){}
 			public void mousePressed(MouseEvent e){}
 		});
-		rArrow.setVisible(true);
-		f.add(rArrow);
+		rArrowLower.setVisible(true);
+		f.add(rArrowLower);
 		
 		//left arrow - back
-		//JButton lArrow = new JButton("<");
-		lArrow.setSize(rArrow.getWidth(), rArrow.getHeight());
-		lArrow.setLocation(loBtn.getX() - lArrow.getWidth(), loBtn.getY());
-		lArrow.setFont(rArrow.getFont());
-		lArrow.addMouseListener(new MouseListener(){
+		//JButton lArrowLower = new JButton("<");
+		lArrowLower.setSize(rArrowLower.getWidth(), rArrowLower.getHeight());
+		lArrowLower.setLocation(loBtn.getX() - lArrowLower.getWidth(), loBtn.getY());
+		lArrowLower.setFont(rArrowLower.getFont());
+		lArrowLower.addMouseListener(new MouseListener(){
 			public void mouseReleased(MouseEvent e){
 				//Increment page number
 				curPageLower--;
 				
 				//Show/hide arrows based on page number
 				if(curPageLower == 4){
-					rArrow.setVisible(false);
-					lArrow.setVisible(true);
+					rArrowLower.setVisible(false);
+					lArrowLower.setVisible(true);
 				}else if(curPageLower > 1 && curPageLower < 4){
-					rArrow.setVisible(true);
-					lArrow.setVisible(true);
+					rArrowLower.setVisible(true);
+					lArrowLower.setVisible(true);
 				}else if(curPageLower == 1){
-					rArrow.setVisible(true);
-					lArrow.setVisible(false);
+					rArrowLower.setVisible(true);
+					lArrowLower.setVisible(false);
 				}else{
 					System.out.println("ERR: current page index: arrows");
 				}
@@ -1536,8 +1536,8 @@ public class GUI {
 			public void mouseExited(MouseEvent e){}
 			public void mousePressed(MouseEvent e){}
 		});
-		lArrow.setVisible(false);
-		f.add(lArrow);
+		lArrowLower.setVisible(false);
+		f.add(lArrowLower);
 		
 	}
 
