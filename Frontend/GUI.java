@@ -86,6 +86,8 @@ public class GUI {
 		f.getContentPane().removeAll();
 		f.repaint();
 		SwingUtilities.updateComponentTreeUI(f);
+		curPage = 1;
+		curPageLower = 1;
 	}
 	
 	//Display home screen
@@ -661,6 +663,7 @@ public class GUI {
 		f.add(rhinopoBtn);
 		
 		//Creating forward and back arrows - top row
+
 		//right arrow - seek
 		JButton rArrow = new JButton(">");
 		//left arrow - back
