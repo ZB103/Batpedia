@@ -40,17 +40,20 @@ public class Family extends Suborder{
 	private final String family;
 	private final String commonName;
 	private final String filepath;
+	private final BufferedImage image;
 	
 	public Family(String fam, String name, String subord){
 		super(subord);
 		family = fam;
 		commonName = name;
 		filepath = "Classification\\Data\\" + getFamily() + ".txt";
+		image = ImageIO.read(new File("Frontend\\Images\\" + getFamily() + ".txt"));
 	}
 	
 	//Getters
 	public String getFamily(){return family;}
 	public String getCommonName(){return commonName;}
+	public BufferedImage getImage{}{return image;}
 	
 	//Retrieve data from text file
 	//Mediator function
