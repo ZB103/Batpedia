@@ -1168,7 +1168,8 @@ public class GUI {
 		loBtn.setLocation(frameW/2 - loBtn.getWidth()*2, frameH/3);
 		loBtn.setFont(loBtn.getFont().deriveFont(20.0F));
 		loBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("location"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("location"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1183,7 +1184,8 @@ public class GUI {
 		haBtn.setLocation(loBtn.getX() + loBtn.getWidth(), loBtn.getY());
 		haBtn.setFont(haBtn.getFont().deriveFont(20.0F));
 		haBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("habitat"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("habitat"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1198,7 +1200,8 @@ public class GUI {
 		diBtn.setLocation(haBtn.getX() + haBtn.getWidth(), loBtn.getY());
 		diBtn.setFont(diBtn.getFont().deriveFont(20.0F));
 		diBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("diet"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("diet"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1213,7 +1216,8 @@ public class GUI {
 		ssBtn.setLocation(diBtn.getX() + diBtn.getWidth(), loBtn.getY());
 		ssBtn.setFont(ssBtn.getFont().deriveFont(20.0F));
 		ssBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("social"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("social"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1229,7 +1233,8 @@ public class GUI {
 		reBtn.setLocation(loBtn.getX(), loBtn.getY());
 		reBtn.setFont(loBtn.getFont());
 		reBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("reproduction"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("reproduction"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1244,7 +1249,8 @@ public class GUI {
 		sbBtn.setLocation(haBtn.getX(), haBtn.getY());
 		sbBtn.setFont(haBtn.getFont());
 		sbBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("seasonal"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("seasonal"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1259,7 +1265,8 @@ public class GUI {
 		lsBtn.setLocation(diBtn.getX(), diBtn.getY());
 		lsBtn.setFont(diBtn.getFont());
 		lsBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("lifespan"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("lifespan"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1274,7 +1281,8 @@ public class GUI {
 		prBtn.setLocation(ssBtn.getX(), ssBtn.getY());
 		prBtn.setFont(ssBtn.getFont());
 		prBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("predators"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("predators"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1290,7 +1298,8 @@ public class GUI {
 		thBtn.setLocation(loBtn.getX(), loBtn.getY());
 		thBtn.setFont(loBtn.getFont());
 		thBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("threats"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("threats"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1305,7 +1314,8 @@ public class GUI {
 		stBtn.setLocation(haBtn.getX(), haBtn.getY());
 		stBtn.setFont(haBtn.getFont());
 		stBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("status"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("status"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1320,7 +1330,8 @@ public class GUI {
 		geBtn.setLocation(diBtn.getX(), diBtn.getY());
 		geBtn.setFont(diBtn.getFont());
 		geBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("genera"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("genera"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1335,7 +1346,8 @@ public class GUI {
 		apBtn.setLocation(ssBtn.getX(), ssBtn.getY());
 		apBtn.setFont(ssBtn.getFont());
 		apBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("appearance"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("appearance"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1351,7 +1363,8 @@ public class GUI {
 		siBtn.setLocation(loBtn.getX(), loBtn.getY());
 		siBtn.setFont(loBtn.getFont());
 		siBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("size"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("size"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -1366,7 +1379,8 @@ public class GUI {
 		elBtn.setLocation(haBtn.getX(), haBtn.getY());
 		elBtn.setFont(haBtn.getFont());
 		elBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){try{infoBox.setText(currentFamily.getData("echo"));}catch(IOException f){}}
+			public void mouseReleased(MouseEvent e){try{infoBox.setText(
+				currentFamily.getFamily() + " (" + currentFamily.getCommonName() + ")\n\n" + currentFamily.getData("echo"));}catch(IOException f){}}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
