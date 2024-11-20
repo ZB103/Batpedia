@@ -544,17 +544,6 @@ public class GUI {
 		// infoBox.setAlignmentY(Component.CENTER_ALIGNMENT);
 		f.add(infoBox);
 		
-		// Creating picture box
-		try{
-			BufferedImage batImage = ImageIO.read(new File("Frontend\\Images\\TempImage.png"));
-			JLabel batLabel = new JLabel(new ImageIcon(batImage));
-			JPanel panel = new JPanel();
-			panel.setSize(batImage.getWidth(), batImage.getHeight());
-			panel.setLocation(frameW*5/24 - batImage.getWidth()/2, frameH*8/12 - batImage.getHeight()/2);
-			panel.add(batLabel);
-			f.add(panel);
-		}catch(IOException e){}
-		
 		//Calling helper function for buttons
 		if(suborderString.equalsIgnoreCase("yinpterochiroptera")){
 			currentFamily = craseonycteridae;
@@ -571,6 +560,19 @@ public class GUI {
 		line.setSize(frameW*7/8, 50);
 		line.setLocation(frameW/2 - line.getWidth()/2,frameH*4/12 - line.getHeight()/2);
 		f.add(line);
+		
+		//Creating picture box
+		try{
+			System.out.println("Current Family: " + currentFamily.getFamily());
+			System.out.println("Filepath: " + currentFamily.getImage());
+			BufferedImage batImage = ImageIO.read(new File(currentFamily.getImage()));
+			JLabel batLabel = new JLabel(new ImageIcon(batImage));
+			JPanel panel = new JPanel();
+			panel.setSize(batImage.getWidth(), batImage.getHeight());
+			panel.setLocation(frameW*5/24 - batImage.getWidth()/2, frameH*8/12 - batImage.getHeight()/2);
+			panel.add(batLabel);
+			f.add(panel);
+		}catch(IOException e){}
 		
 		//Add home and back buttons
 		addBackButtons("suborder");

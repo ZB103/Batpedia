@@ -40,22 +40,20 @@ public class Family extends Suborder{
 	private final String family;
 	private final String commonName;
 	private final String filepath;
-	// private final BufferedImage image;
-	// private final JLabel imageLabel;
+	private final String imageFile;
 	
 	public Family(String fam, String name, String subord){
 		super(subord);
 		family = fam;
 		commonName = name;
 		filepath = "Classification\\Data\\" + getFamily() + ".txt";
-		// image = ImageIO.read(new File("Frontend\\Images\\" + getFamily() + ".txt"));
-		// imageLabel = new JLabel(new ImageIcon(gearImage));
+		imageFile = "Frontend\\Images\\Javapp\\" + getFamily() + ".png";
 	}
 	
 	//Getters
 	public String getFamily(){return family;}
 	public String getCommonName(){return commonName;}
-	// public JLabel getImage{}{return imageLabel;}
+	public String getImage(){return imageFile;}
 	
 	//Retrieve data from text file
 	//Mediator function
