@@ -1,5 +1,6 @@
 # Batpedia  
 An encyclopedia for bats (order Chiroptera)  
+To use: Run main.java file  
   
 Project begun: 10/24/23  
 Current version: Alpha  
