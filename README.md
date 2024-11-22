@@ -14,7 +14,6 @@ TODO
 -Finalize logo and implement animation easter egg  
   
 Begun  
--  
   
 Completed  
 -Organize bat categories into classes  
