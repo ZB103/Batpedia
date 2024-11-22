@@ -1,7 +1,7 @@
 # Compiled class file
 *.class
 
-#Compiled args file
+# Compiled args file
 *.args
 
 # Log file
@@ -26,8 +26,14 @@
 hs_err_pid*
 replay_pid*
 
-#Research
+# Research
 Research/
 
-#Scrapped Classes
+# Scrapped Classes
 Classification/Old_Classes/
+
+# Raw files
+*.clip
+Frontend/Images/Logo.clip
+*.xslx
+Frontend/Images/Classification.xslx
