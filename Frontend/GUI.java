@@ -376,15 +376,25 @@ public class GUI {
 			File file = new File("Classification\\Data\\cr.txt");
 			FileReader fr = new FileReader(file);
 			BufferedReader br = new BufferedReader(fr);
-			String crText = br.readLine();
+			String crText = "";
+			String crLine = "";
+			while(!((crLine = br.readLine()).equals("*ENDDOC"))){
+				if(crLine.equals("")){
+					crText += "\n";
+				}else{
+					crText += crLine;
+				}
+			}
 			//Creating box
-			JTextArea crBox = new JTextArea(crText);	//add border	//add center alignment
+			//add border, center alignment, scroll
+			JTextArea crBox = new JTextArea(crText);
 			crBox.setSize(600,350);
 			crBox.setLocation(frameW/2 - crBox.getWidth()/2, frameH/3 - crBox.getHeight()/2 + 20);
 			crBox.setLineWrap(true);
 			crBox.setWrapStyleWord(true);
 			crBox.setEditable(false);
 			crBox.setFont(crBox.getFont().deriveFont(20.0F));
+			// JScrollPane scrollBox = new JScrollPane;
 			f.add(crBox);
 			
 			br.close();
