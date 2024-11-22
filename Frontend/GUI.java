@@ -68,6 +68,9 @@ public class GUI {
 	//Optimize change this
 	protected static Family currentFamily = null;
 	
+	//image panel
+	protected static JPanel panel = new JPanel();
+	
 	//Base frame creation
 	public GUI(){
 		//Creating frame
@@ -85,7 +88,10 @@ public class GUI {
     }
 	
 	//currentFamily variable setter (helper function)
-	private void setCurrentFamily(Family f){currentFamily = f;}
+	private void setCurrentFamily(Family f, JTextArea infoBox){
+			currentFamily = f;
+			addFamilyPhoto(infoBox);
+		}
 	
 	//Reset frame
 	private void fClear(){
@@ -546,10 +552,8 @@ public class GUI {
 		
 		//Calling helper function for buttons
 		if(suborderString.equalsIgnoreCase("yinpterochiroptera")){
-			currentFamily = craseonycteridae;
 			yinButtons(infoBox);
 		}else if(suborderString.equalsIgnoreCase("yangochiroptera")){
-			currentFamily = cistugidae;
 			yangoButtons(infoBox);
 		}else{
 			System.out.println("ERR: Selecting Suborder");
@@ -561,25 +565,32 @@ public class GUI {
 		line.setLocation(frameW/2 - line.getWidth()/2,frameH*4/12 - line.getHeight()/2);
 		f.add(line);
 		
+		//Add photo
+		addFamilyPhoto(infoBox);
+		//Add home and back buttons
+		addBackButtons("suborder");
+	}
+	
+	//Displaying picture of selected bat family
+	private void addFamilyPhoto(JTextArea infoBox){
 		//Creating picture box
 		try{
-			System.out.println("Current Family: " + currentFamily.getFamily());
-			System.out.println("Filepath: " + currentFamily.getImage());
-			BufferedImage batImage = ImageIO.read(new File(currentFamily.getImage()));
+			panel.removeAll();	//clear panel
+			panel.revalidate();	//remove old image components
+			panel.repaint();	//refresh layout
+			BufferedImage batImage = ImageIO.read(currentFamily.getImage());
 			JLabel batLabel = new JLabel(new ImageIcon(batImage));
-			JPanel panel = new JPanel();
 			panel.setSize(batImage.getWidth(), batImage.getHeight());
 			panel.setLocation(frameW*5/24 - batImage.getWidth()/2, frameH*8/12 - batImage.getHeight()/2);
 			panel.add(batLabel);
 			f.add(panel);
-		}catch(IOException e){}
-		
-		//Add home and back buttons
-		addBackButtons("suborder");
+		}catch(IOException e){
+			System.out.println("Error loading image: " + e.getMessage());
+		}
 	}
 
 	//Sets up the displayed buttons when Yin is pressed on Suborder screen
-	private Family yinButtons(JTextArea infoBox){
+	private void yinButtons(JTextArea infoBox){
 		currentFamily = craseonycteridae;	//default
 		//Creating info buttons for yin
 		//Future optimization: button creation loop
@@ -593,7 +604,7 @@ public class GUI {
 		craseoBtn.setLocation(frameW/2 - craseoBtn.getWidth()*3/2, frameH/6);
 		craseoBtn.setFont(craseoBtn.getFont().deriveFont(20.0F));
 		craseoBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(craseonycteridae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(craseonycteridae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -608,7 +619,7 @@ public class GUI {
 		hippoBtn.setLocation(craseoBtn.getX() + craseoBtn.getWidth(), craseoBtn.getY());
 		hippoBtn.setFont(hippoBtn.getFont().deriveFont(20.0F));
 		hippoBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(hipposideridae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(hipposideridae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -623,7 +634,7 @@ public class GUI {
 		megaBtn.setLocation(hippoBtn.getX() + hippoBtn.getWidth(), hippoBtn.getY());
 		megaBtn.setFont(megaBtn.getFont().deriveFont(20.0F));
 		megaBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(megadermatidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(megadermatidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -639,7 +650,7 @@ public class GUI {
 		pteroBtn.setLocation(craseoBtn.getX(), craseoBtn.getY());
 		pteroBtn.setFont(pteroBtn.getFont().deriveFont(20.0F));
 		pteroBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(pteropodidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(pteropodidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -654,7 +665,7 @@ public class GUI {
 		rhinoloBtn.setLocation(hippoBtn.getX(), hippoBtn.getY());
 		rhinoloBtn.setFont(rhinoloBtn.getFont().deriveFont(20.0F));
 		rhinoloBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(rhinolophidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(rhinolophidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -669,7 +680,7 @@ public class GUI {
 		rhinopoBtn.setLocation(megaBtn.getX(), megaBtn.getY());
 		rhinopoBtn.setFont(rhinopoBtn.getFont().deriveFont(20.0F));
 		rhinopoBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(rhinopomatidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(rhinopomatidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -743,8 +754,6 @@ public class GUI {
 		
 		//Add second row of buttons
 		infoButtons(infoBox);
-	
-	return currentFamily;
 	}
 	
 	//Sets up the displayed buttons when Yango is pressed on Suborder screen
@@ -764,7 +773,7 @@ public class GUI {
 		cistBtn.setLocation(frameW/2 - cistBtn.getWidth()*3/2, frameH/6);
 		cistBtn.setFont(cistBtn.getFont().deriveFont(20.0F));
 		cistBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(cistugidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(cistugidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -779,7 +788,7 @@ public class GUI {
 		embalBtn.setLocation(cistBtn.getX() + cistBtn.getWidth(), cistBtn.getY());
 		embalBtn.setFont(embalBtn.getFont().deriveFont(20.0F));
 		embalBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(emballonuridae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(emballonuridae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -794,7 +803,7 @@ public class GUI {
 		furiBtn.setLocation(embalBtn.getX() + embalBtn.getWidth(), embalBtn.getY());
 		furiBtn.setFont(furiBtn.getFont().deriveFont(20.0F));
 		furiBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(furipteridae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(furipteridae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -810,7 +819,7 @@ public class GUI {
 		miniBtn.setLocation(cistBtn.getX(), cistBtn.getY());
 		miniBtn.setFont(miniBtn.getFont().deriveFont(20.0F));
 		miniBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(miniopteridae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(miniopteridae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -825,7 +834,7 @@ public class GUI {
 		moloBtn.setLocation(embalBtn.getX(), embalBtn.getY());
 		moloBtn.setFont(moloBtn.getFont().deriveFont(20.0F));
 		moloBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(molossidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(molossidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -840,7 +849,7 @@ public class GUI {
 		morBtn.setLocation(furiBtn.getX(), furiBtn.getY());
 		morBtn.setFont(morBtn.getFont().deriveFont(20.0F));
 		morBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(mormoopidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(mormoopidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -856,7 +865,7 @@ public class GUI {
 		mystaBtn.setLocation(cistBtn.getX(), cistBtn.getY());
 		mystaBtn.setFont(mystaBtn.getFont().deriveFont(20.0F));
 		mystaBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(mystacinidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(mystacinidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -871,7 +880,7 @@ public class GUI {
 		myzoBtn.setLocation(embalBtn.getX(), embalBtn.getY());
 		myzoBtn.setFont(myzoBtn.getFont().deriveFont(20.0F));
 		myzoBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(myzopodidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(myzopodidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -886,7 +895,7 @@ public class GUI {
 		natBtn.setLocation(furiBtn.getX(), furiBtn.getY());
 		natBtn.setFont(natBtn.getFont().deriveFont(20.0F));
 		natBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(natalidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(natalidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -902,7 +911,7 @@ public class GUI {
 		noctBtn.setLocation(cistBtn.getX(), cistBtn.getY());
 		noctBtn.setFont(noctBtn.getFont().deriveFont(20.0F));
 		noctBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(noctilionidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(noctilionidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -917,7 +926,7 @@ public class GUI {
 		nyctBtn.setLocation(embalBtn.getX(), embalBtn.getY());
 		nyctBtn.setFont(nyctBtn.getFont().deriveFont(20.0F));
 		nyctBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(nycteridae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(nycteridae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -932,7 +941,7 @@ public class GUI {
 		phyBtn.setLocation(furiBtn.getX(), furiBtn.getY());
 		phyBtn.setFont(phyBtn.getFont().deriveFont(20.0F));
 		phyBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(phyllostomidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(phyllostomidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -948,7 +957,7 @@ public class GUI {
 		thyroBtn.setLocation(cistBtn.getX(), cistBtn.getY());
 		thyroBtn.setFont(thyroBtn.getFont().deriveFont(20.0F));
 		thyroBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(thyropteridae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(thyropteridae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}
@@ -963,7 +972,7 @@ public class GUI {
 		vesBtn.setLocation(embalBtn.getX(), embalBtn.getY());
 		vesBtn.setFont(vesBtn.getFont().deriveFont(20.0F));
 		vesBtn.addMouseListener(new MouseListener(){
-			public void mouseReleased(MouseEvent e){setCurrentFamily(vespertilionidae);}
+			public void mouseReleased(MouseEvent e){setCurrentFamily(vespertilionidae, infoBox);}
 			public void mouseClicked(MouseEvent e){}
 			public void mouseEntered(MouseEvent e){/*Cursor.setCursor(Cursor.HAND_CURSOR);*/}
 			public void mouseExited(MouseEvent e){}

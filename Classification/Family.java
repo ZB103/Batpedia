@@ -40,20 +40,20 @@ public class Family extends Suborder{
 	private final String family;
 	private final String commonName;
 	private final String filepath;
-	private final String imageFile;
+	private final File imageFile;
 	
 	public Family(String fam, String name, String subord){
 		super(subord);
 		family = fam;
 		commonName = name;
 		filepath = "Classification\\Data\\" + getFamily() + ".txt";
-		imageFile = "Frontend\\Images\\Javapp\\" + getFamily() + ".png";
+		imageFile = new File("Frontend\\Images\\Javapp\\" + getFamily() + ".png");
 	}
 	
 	//Getters
 	public String getFamily(){return family;}
 	public String getCommonName(){return commonName;}
-	public String getImage(){return imageFile;}
+	public File getImage(){return imageFile;}
 	
 	//Retrieve data from text file
 	//Mediator function
